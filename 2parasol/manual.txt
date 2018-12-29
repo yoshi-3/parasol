@@ -1,0 +1,181 @@
+
+manual.txt
+
+Date: December 28th, 2018
+Released version: 1.0.1
+
+##############################
+0. Introduction
+##############################
+
+The PARASOL is an online algorithm to find a ÄDelta-covered set of the frequent itemsets (FIs) 
+in streaming transactions.
+
+We have implemented this algorithm by C, which is available for the academic usage with the 
+recognition by the author. 
+
+Please contact the following corresponding author to use it in your application.
+
+Author: Yoshitaka Yamamoto
+Email: yyamamoto at yamanashi dot ac dot jp
+
+##############################
+1. How to compile 
+##############################
+
+In the following, we assume that the current directory is ``srcÅfÅf.
+
+Please use the make command as follows:
+
+% make
+
+Note that we have used the gcc compiler (clang-900.0.39.2) in the Mac machine (OS X, 2.66GHz Intel Core i7, 8GB memory).
+If you will try other environments, it will be often required to fit the gcc library. 
+For instance, in the case of linux OS machines, please change the headers for malloc library 
+#include<malloc/malloc.h> to #include <malloc.h> in the entryTable.h.
+
+
+##############################
+2. How to execute 
+##############################
+
+We can execute the implementation by the following command line:
+
+% ./main -i ``INPUT_FILEÅfÅf -s ``MINIMAL_SUPPORT_THREAHOLDÅfÅf -o ``OUTPUT_FILEÅfÅf
+
+where 
+
+(1) INPUT_FILE: the path for the input_file
+(2) MINIMAL_SUPPORT_THREAHOLD: the minimal support threshold (corresponding to sigma)
+(3) OUTPUT_FILE: the path to the output_file
+
+For example, if we use t0.txt in the sample as the input and set the minimal 
+support threshold (sigma) as 0.001, the command line should be as following:  
+
+% ./main -i ../sample/input/t0.txt -s 0.001 -o ../sample/output/t0
+
+By this command line, we perform the exact approach to find all the closed frequent itemsets 
+wrt sigma. The result files are created in the result directory.
+
+PARASOL realizes both parameter-constrained (PC) and resource-constrained (RC) approximation schemes as follows: 
+
+A. PC approximation 
+
+Please specify the error parameter with the option -e as follows:
+
+% ./main -i ``INPUT_FILEÅfÅf -s ``MINIMAL_SUPPORT_THREAHOLDÅfÅf -e ``ERROR_PARAMETERÅfÅf
+
+For example, if we allow the frequency count to include the error count whose ratio is bounded 
+by 0.25, the command line will be given as follows:
+
+% ./main -i ../sample/input/t0.txt -s 0.001 -e 0.25 -o ../sample/output/t0e025 
+
+B. RC approximation
+
+Please specify the size constant with the option -k as follows:
+
+% ./main -i ``INPUT_FILEÅfÅf -s ``MINIMAL_SUPPORT_THREAHOLDÅfÅf -k ``SIZE_CONSTANTÅfÅf
+ 
+For example, if we fix the maximal number of used entries as three, then
+the command line will be given as follows:
+
+% ./main -i ../sample/input/t0.txt -s 0.001 -k 3 -o ../sample/output/t0k3 
+
+C. Unified PC and RC approximation
+
+It is possible to specify both the size constant and the error parameter as follows:
+
+% ./main -i ``INPUT_FILEÅfÅf -s ``MINIMAL_SUPPORT_THREAHOLDÅfÅf -k ``SIZE_CONSTANTÅfÅf -e ``ERROR_PARAMETERÅfÅf
+
+For example, if we run the implementation by allowing the error parameter to 0.25, using the three entries which
+is determined from the resource constrained, the following command line will be give:
+
+% ./main -i ../sample/input/t0.txt -s 0.001 -k 3 -e 0.25 -o ../sample/output/t0k3e025 
+
+
+##############################
+3. How to read the result files
+##############################
+
+After the execution, we will obtain the (displaying) standard output, as well as two kinds of text files  
+(i.e., OUTPUT_FILE.ans and OUTPUT_FILE.table) if the option -o is specified.
+
+(1) standard output: the abstract of the result, including the following information:
++ options: indicating the approximation type (exact | RC | PC) as well as if the pruning techniques 
+           (StreamReduction and/or Delta_compression) are used
++ statistics of input data: 
+	++ number of transactions
++ delta: the maximal error count at the end time after processing the transactions
++ final error ratio: the value of ratio of delta by the number of processed transactions 
++ execution time (total and per one transaction)
++ number of outputs 
+
+(2) OUTPUT_FILE.ans: the detailed output by PARASOL, including the following information:
++ list of entries by the form <itemset, frequency count, true count> where
+	++ itemset: target subset of items 
+	++ frequency count: the (estimated) count of the itemset maintained by the algorithm
+	++ true count: the true count maintained by PARASOL; it corresponds to the value
+	of the difference between the frequency count and the error count of this itemset.
+	Hence, the true count is the frequency that we really count up this itemset.
++ number of outputs
++ total CPU time (sec) 
+
+(3) OUTPUT_FILE.table: outputting the detail of stored entries after processing the transactions
+
+In addition if we put the option -u, we obtain the summary file
+
+% ./main -i ``INPUT_FILEÅfÅf -s ``MINIMAL_SUPPORT_THREAHOLDÅfÅf -u ``SUMMARY_FILE''
+
+(4) SUMMARY_FILE: the abstract of the output (used for comparing the other methods), described as one record of 
+the following form:
+<APPROACH, INPUT, SIZE, DELTA, TOTAL_TIME, TIME_PER_TRAN, NUM_OF_FREQ_ITEMSETS, NUM_OF_CLO_FREQ_ITEMSETS> where 
+
++ APPROACH: the abbreviated approach name
++ INPUT: input file
++ SIZE: average of used entries
++ DELTA: the final error count after processing the transactions
++ TOTAL_TIME: the total execution time (sec)
++ TIME_PER_TRAN: the average execution time per one transaction (sec)
++ NUM_OF_FREQ_ITEMSETS: the number of frequent itemsets#
++ NUM_OF_CLO_FREQ_ITEMSETS>: the number of closed frequents#
+
+
+##############################
+4. How to use other options
+##############################
+
+The following options are also used to exploit the stream reduction and Delta-compression for pruning
+the online processing and reducing the output size, respectively. 
+
+--comp:   please specify it if you exploit Delta-compression to reduce the output
+
+Å\-reduce: please specify it if you exploit StreamReduction to reduce each streaming transaction
+
+In addition, the following option is necessary for performing the dataset created by the IBM 
+market basket generator.
+
+--ibm: please put it if you use the synthesis data by the IBM market basket generator  
+
+The available options are listed and can be checked
+ 
+% ./main -h 
+
+##############################
+5. How to prepare the input file
+##############################
+
+The input file is given as a text file in the FIMI form, consisting of records, 
+each of which corresponds to one transaction.
+
+For example, suppose the transactional stream as follows:
+< {1, 2, 3}, {2, 4}, {3, 5}, {1, 2, 5}, {2, 3, 5}, {1, 3, 4}>
+
+Then, this stream is represented by the following FIMI text file:
+
+1 2 3
+2 4
+3 5
+1 2 5
+2 3 4
+1 3 4
+EOF

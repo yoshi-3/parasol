@@ -1,0 +1,45 @@
+inputFile: ../../benchmark/7kosarak.txt
+outputFile: default (ans/table/csv)
+options: <rc. comp. rep. chk. >
++ min support: 0.0000
++ size constant: 12000
+statics of dataset
++ num of transactions: 990002
++ num of item kinds: 41270
++ max transaction length: 2498
++ ave transaction length: 8.10
+--- result --- 
+Delta: 2681
+final error ratio (Delta / num of transactions): 0.003
+aveage table size: 11987
+max table size: 12000
+total CPU time: 987.880 (sec)    
+(per 1 trans.: 0.998 msec)	
+intersection time: 982.240 (sec)    
+intersection ratio: 0.326
+num of entries before Delta-compression: 12000
+num of entries after quasi Delta-compression: 5589
+CPU time: 0.740 (sec) 
+num of outputs: 3258
+inputFile: ../../benchmark/7kosarak.txt
+outputFile: default (ans/table/csv)
+options: <rc. comp_base. rep. chk. >
++ min support: 0.0000
++ size constant: 12000
+statics of dataset
++ num of transactions: 990002
++ num of item kinds: 41270
++ max transaction length: 2498
++ ave transaction length: 8.10
+--- result --- 
+Delta: 2681
+final error ratio (Delta / num of transactions): 0.003
+aveage table size: 11987
+max table size: 12000
+total CPU time: 949.150 (sec)    
+(per 1 trans.: 0.959 msec)	
+intersection time: 942.340 (sec)    
+intersection ratio: 0.326
+num of entries before Delta-compression: 12000
+CPU time: 2.170 (sec) 
+num of outputs: 3410

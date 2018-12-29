@@ -1,0 +1,45 @@
+inputFile: ../../benchmark/8pumsb.txt
+outputFile: default (ans/table/csv)
+options: <rc. comp. rep. chk. >
++ min support: 0.0000
++ size constant: 12000
+statics of dataset
++ num of transactions: 49046
++ num of item kinds: 2112
++ max transaction length: 74
++ ave transaction length: 73.62
+--- result --- 
+Delta: 42513
+final error ratio (Delta / num of transactions): 0.867
+aveage table size: 11993
+max table size: 12000
+total CPU time: 234.520 (sec)    
+(per 1 trans.: 4.782 msec)	
+intersection time: 233.050 (sec)    
+intersection ratio: 0.444
+num of entries before Delta-compression: 12000
+num of entries after quasi Delta-compression: 6004
+CPU time: 0.700 (sec) 
+num of outputs: 1267
+inputFile: ../../benchmark/8pumsb.txt
+outputFile: default (ans/table/csv)
+options: <rc. comp_base. rep. chk. >
++ min support: 0.0000
++ size constant: 12000
+statics of dataset
++ num of transactions: 49046
++ num of item kinds: 2112
++ max transaction length: 74
++ ave transaction length: 73.62
+--- result --- 
+Delta: 42513
+final error ratio (Delta / num of transactions): 0.867
+aveage table size: 11993
+max table size: 12000
+total CPU time: 235.440 (sec)    
+(per 1 trans.: 4.800 msec)	
+intersection time: 232.280 (sec)    
+intersection ratio: 0.444
+num of entries before Delta-compression: 12000
+CPU time: 2.260 (sec) 
+num of outputs: 1519

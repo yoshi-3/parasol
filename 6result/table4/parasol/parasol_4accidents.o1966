@@ -1,0 +1,22 @@
+inputFile: ../../benchmark/4accidents.txt
+outputFile: default (ans/table/csv)
+options: <pc. rc. comp. rep. chk. >
++ min support: 1.0000
++ size constant: 100000
++ error parameter: 0.1000
+statics of dataset
++ num of transactions: 340183
++ num of item kinds: 468
++ max transaction length: 51
++ ave transaction length: 33.81
+--- result --- 
+Delta: 127097
+final error ratio (Delta / num of transactions): 0.374
+aveage table size: 99986
+max table size: 100000
+total CPU time: 6855.650 (sec)    
+(per 1 trans.: 20.153 msec)	
+intersection time: 6847.190 (sec)    
+num of entries before Delta-compression: 100000
+num of entries after quasi Delta-compression: 13445
+num of outputs: 4194

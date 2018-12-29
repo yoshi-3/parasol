@@ -1,0 +1,22 @@
+inputFile: ../../benchmark/9mushroom.txt
+outputFile: default (ans/table/csv)
+options: <pc. rc. comp. rep. chk. >
++ min support: 1.0000
++ size constant: 100000
++ error parameter: 0.1000
+statics of dataset
++ num of transactions: 8124
++ num of item kinds: 119
++ max transaction length: 23
++ ave transaction length: 23.00
+--- result --- 
+Delta: 812
+final error ratio (Delta / num of transactions): 0.100
+aveage table size: 4278
+max table size: 7510
+total CPU time: 8.490 (sec)    
+(per 1 trans.: 1.045 msec)	
+intersection time: 8.360 (sec)    
+num of entries before Delta-compression: 6290
+num of entries after quasi Delta-compression: 1909
+num of outputs: 938

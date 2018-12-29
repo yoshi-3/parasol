@@ -1,0 +1,45 @@
+inputFile: ../../benchmark/3retail.txt
+outputFile: default (ans/table/csv)
+options: <rc. comp. rep. chk. >
++ min support: 0.0000
++ size constant: 12000
+statics of dataset
++ num of transactions: 88162
++ num of item kinds: 16469
++ max transaction length: 76
++ ave transaction length: 10.30
+--- result --- 
+Delta: 156
+final error ratio (Delta / num of transactions): 0.002
+aveage table size: 11839
+max table size: 12000
+total CPU time: 168.530 (sec)    
+(per 1 trans.: 1.912 msec)	
+intersection time: 164.830 (sec)    
+intersection ratio: 0.686
+num of entries before Delta-compression: 12000
+num of entries after quasi Delta-compression: 9367
+CPU time: 3.360 (sec) 
+num of outputs: 6503
+inputFile: ../../benchmark/3retail.txt
+outputFile: default (ans/table/csv)
+options: <rc. comp_base. rep. chk. >
++ min support: 0.0000
++ size constant: 12000
+statics of dataset
++ num of transactions: 88162
++ num of item kinds: 16469
++ max transaction length: 76
++ ave transaction length: 10.30
+--- result --- 
+Delta: 156
+final error ratio (Delta / num of transactions): 0.002
+aveage table size: 11839
+max table size: 12000
+total CPU time: 162.040 (sec)    
+(per 1 trans.: 1.838 msec)	
+intersection time: 157.250 (sec)    
+intersection ratio: 0.686
+num of entries before Delta-compression: 12000
+CPU time: 4.390 (sec) 
+num of outputs: 6543

@@ -1,0 +1,20 @@
+InputFile: ../../1benchmark/real/7kosarak.txt
+OutputFile: result/pc-rc-7kosarak
+stream_length: 990002
+mininal spport threshold: 0.000
+error parameter: 0.100
+size constand: 100000
+t=990002, s*t=0.00, e*t=99000.20, delta=99000, table_size (MAX) = 10 (72)
+<itemset, frequency count, true count (frequency count - error count) >
+<1056.>,99001,1
+<6.7.>,99003,8
+<1.6.11.>,99003,31
+<1.3.>,99004,28
+<3.6.11.>,161287,143679
+<1.6.>,197522,132113
+<3.6.>,265181,265180
+<6.11.>,364065,324013
+<3.>,450031,450031
+<6.>,601374,601374
+Num of outputs: 10
+CPU time: 33.049 sec

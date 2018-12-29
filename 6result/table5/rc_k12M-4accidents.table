@@ -1,0 +1,629 @@
+---OutputTable---
+time=340182
+table_size=626
+[1] - <12 17 18 43 44 > true count=9, estimated count=179683, Key=238088
+[2] - <1 8 10 12 14 15 16 17 18 21 22 24 25 26 27 28 29 30 31 41 43 46 49 53 56 59 61 63 64 66 83 96 97 102 128 140 > true count=1, estimated count=179684, Key=3476595
+[3] - <12 16 17 23 27 31 66 > true count=53, estimated count=179683, Key=552516
+[4] - <12 17 18 21 23 29 > true count=59, estimated count=179685, Key=240362
+[5] - <1 8 10 12 14 15 16 17 18 21 24 25 26 27 28 29 30 31 39 42 43 46 47 61 62 63 64 65 66 70 88 94 95 140 161 178 180 200 > true count=1, estimated count=179684, Key=4197072
+[6] - <12 15 16 17 23 > true count=56, estimated count=179683, Key=124989
+[7] - <12 15 16 17 18 31 43 80 > true count=9, estimated count=179683, Key=412438
+[8] - <12 17 18 21 27 29 38 43 46 63 64 66 > true count=3, estimated count=179684, Key=830974
+[9] - <17 24 25 27 28 31 > true count=18, estimated count=179686, Key=285664
+[10] - <1 12 16 17 18 22 25 29 31 38 41 43 59 66 > true count=4, estimated count=179685, Key=1065572
+[11] - <10 12 17 18 21 23 27 66 > true count=58, estimated count=179685, Key=322866
+[12] - <12 17 23 25 > true count=56, estimated count=179683, Key=87403
+[13] - <12 16 17 18 22 25 31 41 43 59 60 66 > true count=7, estimated count=179684, Key=749672
+[14] - <12 14 15 16 17 18 21 27 31 41 43 59 66 > true count=11, estimated count=179686, Key=813634
+[15] - <9 12 17 > true count=57, estimated count=179683, Key=27466
+[16] - <12 17 18 24 25 29 43 63 66 > true count=11, estimated count=179685, Key=478107
+[17] - <12 16 17 18 21 23 31 > true count=55, estimated count=179686, Key=342674
+[18] - <12 14 15 16 17 18 21 24 25 27 31 43 > true count=6, estimated count=179687, Key=488897
+[19] - <17 24 29 31 63 66 > true count=17, estimated count=179688, Key=520102
+[20] - <1 12 17 18 22 27 31 > true count=219, estimated count=179688, Key=357548
+[21] - <10 12 17 18 21 24 27 38 43 66 > true count=5, estimated count=179684, Key=431054
+[22] - <8 10 12 17 18 21 24 27 29 43 46 63 64 66 > true count=4, estimated count=179685, Key=1139466
+[23] - <1 12 14 15 16 17 18 21 25 26 27 28 29 31 39 43 46 61 63 64 66 140 > true count=2, estimated count=179685, Key=1551402
+[24] - <12 16 17 18 23 27 31 > true count=53, estimated count=179683, Key=362496
+[25] - <12 14 15 16 17 18 22 25 31 43 > true count=10, estimated count=179685, Key=336275
+[26] - <12 15 17 18 24 25 43 63 66 > true count=10, estimated count=179687, Key=446753
+[27] - <10 17 27 28 66 > true count=35, estimated count=179686, Key=279730
+[28] - <15 17 21 24 27 29 43 > true count=22, estimated count=179686, Key=451130
+[29] - <12 16 17 18 25 28 31 41 43 59 60 66 > true count=7, estimated count=179686, Key=768662
+[30] - <12 15 16 17 18 25 28 31 41 43 60 66 > true count=7, estimated count=179684, Key=700876
+[31] - <17 21 24 27 31 38 41 43 > true count=16, estimated count=179684, Key=497412
+[32] - <12 16 17 18 21 24 25 27 31 43 63 66 > true count=10, estimated count=179686, Key=696553
+[33] - <12 16 17 18 24 29 31 63 > true count=17, estimated count=179687, Key=372470
+[34] - <12 17 18 21 22 27 31 66 > true count=218, estimated count=179688, Key=367568
+[35] - <8 16 17 21 27 29 > true count=12904, estimated count=179686, Key=249578
+[36] - <8 12 16 17 18 24 25 31 41 43 66 > true count=7, estimated count=179690, Key=512911
+[37] - <12 15 16 17 18 21 25 27 31 41 43 59 66 > true count=11, estimated count=179689, Key=848579
+[38] - <12 16 17 18 24 31 41 43 46 > true count=12, estimated count=179688, Key=448984
+[39] - <12 15 16 17 18 21 27 29 31 43 > true count=23, estimated count=179690, Key=375645
+[40] - <12 16 17 18 21 24 27 28 31 43 > true count=18, estimated count=179689, Key=398403
+[41] - <12 17 18 21 28 29 31 43 66 > true count=1079, estimated count=179689, Key=427303
+[42] - <12 16 17 18 23 31 66 > true count=55, estimated count=179690, Key=531555
+[43] - <12 16 17 18 24 28 29 31 43 > true count=17, estimated count=179687, Key=383536
+[44] - <12 15 17 18 25 28 29 > true count=1082, estimated count=179696, Key=362186
+[45] - <17 24 29 31 43 63 > true count=17, estimated count=179685, Key=454379
+[46] - <1 8 12 15 16 17 18 21 24 25 26 27 28 29 30 31 43 46 47 64 66 94 > true count=2, estimated count=179685, Key=1443630
+[47] - <12 14 16 17 18 21 24 27 31 43 66 > true count=16, estimated count=179685, Key=493371
+[48] - <12 15 17 18 21 23 27 66 > true count=58, estimated count=179684, Key=324509
+[49] - <12 16 17 21 23 27 31 > true count=53, estimated count=179684, Key=368475
+[50] - <12 17 18 21 23 27 31 66 > true count=57, estimated count=179686, Key=370317
+[51] - <17 21 24 27 28 31 43 66 > true count=17, estimated count=179686, Key=472963
+[52] - <12 16 17 18 24 27 28 31 66 > true count=16, estimated count=179699, Key=388115
+[53] - <12 15 16 17 18 21 24 27 29 > true count=22, estimated count=179687, Key=308439
+[54] - <12 15 16 17 18 27 28 41 > true count=1081, estimated count=179696, Key=331760
+[55] - <12 16 17 18 22 27 29 > true count=1950, estimated count=179687, Key=350905
+[56] - <12 16 17 31 46 66 > true count=1069, estimated count=179700, Key=454240
+[57] - <12 15 16 17 18 21 25 27 31 41 43 60 66 > true count=5, estimated count=179687, Key=851328
+[58] - <12 14 15 16 17 18 25 31 41 43 59 66 > true count=10, estimated count=179689, Key=654035
+[59] - <12 16 17 18 21 25 27 28 31 41 43 60 66 > true count=7, estimated count=179690, Key=886511
+[60] - <12 17 18 23 29 66 > true count=59, estimated count=179685, Key=393339
+[61] - <17 24 25 27 29 31 > true count=18, estimated count=179686, Key=288413
+[62] - <10 12 17 18 28 66 > true count=35, estimated count=179685, Key=376659
+[63] - <1 12 16 17 18 28 41 66 > true count=1069, estimated count=179695, Key=391187
+[64] - <10 12 17 18 29 31 > true count=61, estimated count=179697, Key=254073
+[65] - <12 15 16 17 18 27 31 43 66 > true count=1081, estimated count=179717, Key=381127
+[66] - <12 14 15 16 17 18 21 31 > true count=1094, estimated count=179713, Key=262056
+[67] - <12 14 16 17 18 28 29 31 > true count=1069, estimated count=179688, Key=339205
+[68] - <12 16 17 18 21 27 29 31 43 59 > true count=18, estimated count=179698, Key=444219
+[69] - <12 15 16 17 18 21 25 27 31 38 41 43 66 > true count=9, estimated count=179685, Key=796922
+[70] - <12 17 18 21 25 29 43 > true count=1956, estimated count=179705, Key=435963
+[71] - <10 12 15 16 17 18 21 > true count=58, estimated count=179695, Key=260929
+[72] - <1 12 15 17 18 21 27 > true count=1951, estimated count=179708, Key=302931
+[73] - <1 12 17 18 24 31 41 > true count=10638, estimated count=179721, Key=421580
+[74] - <12 15 16 17 18 21 27 29 41 > true count=21, estimated count=179694, Key=328268
+[75] - <17 21 24 27 29 31 43 66 > true count=18, estimated count=179689, Key=475712
+[76] - <12 16 17 18 21 22 28 66 > true count=1081, estimated count=179700, Key=325896
+[77] - <15 17 21 24 25 27 43 66 > true count=18, estimated count=179699, Key=438536
+[78] - <12 17 18 25 28 29 31 43 > true count=1073, estimated count=179814, Key=399173
+[79] - <12 17 18 27 28 29 41 > true count=1083, estimated count=179694, Key=447326
+[80] - <12 15 16 17 18 21 22 25 27 31 43 > true count=10, estimated count=179685, Key=422299
+[81] - <12 15 16 17 18 21 29 31 43 > true count=2009, estimated count=179758, Key=338206
+[82] - <17 24 28 31 63 > true count=18, estimated count=179696, Key=282527
+[83] - <10 12 16 17 18 21 27 31 66 > true count=54, estimated count=179691, Key=340302
+[84] - <1 12 17 18 22 28 66 > true count=1083, estimated count=179692, Key=515864
+[85] - <10 12 17 18 21 24 25 27 43 66 > true count=10, estimated count=179692, Key=422201
+[86] - <12 16 17 18 21 24 27 29 31 43 > true count=23, estimated count=179688, Key=398404
+[87] - <12 16 17 18 25 31 43 59 > true count=1175, estimated count=179712, Key=435429
+[88] - <1 12 16 17 18 28 29 31 43 > true count=1094, estimated count=179721, Key=361621
+[89] - <8 12 17 18 21 24 43 66 > true count=12940, estimated count=179761, Key=397181
+[90] - <1 12 16 17 18 22 25 31 41 43 59 66 > true count=8, estimated count=179690, Key=673225
+[91] - <12 16 17 18 22 25 31 41 43 59 63 66 > true count=8, estimated count=179691, Key=755651
+[92] - <12 17 18 21 24 27 28 43 63 66 > true count=10, estimated count=179688, Key=475355
+[93] - <1 10 12 16 17 18 22 24 25 29 31 41 43 59 66 > true count=4, estimated count=179685, Key=899280
+[94] - <1 12 15 16 17 18 22 25 31 43 > true count=8, estimated count=179686, Key=335170
+[95] - <17 24 28 29 63 > true count=17, estimated count=179685, Key=278541
+[96] - <12 17 18 24 27 43 66 > true count=14301, estimated count=179968, Key=599257
+[97] - <12 16 17 21 23 31 66 > true count=54, estimated count=179684, Key=537534
+[98] - <1 12 16 17 18 25 29 31 41 43 59 60 66 > true count=4, estimated count=179687, Key=921504
+[99] - <10 12 16 17 23 > true count=57, estimated count=179684, Key=123346
+[100] - <10 12 17 21 27 29 66 > true count=58, estimated count=179688, Key=539178
+[101] - <12 17 18 27 28 29 59 > true count=1079, estimated count=179690, Key=526904
+[102] - <12 17 18 21 24 27 29 31 66 > true count=22, estimated count=179687, Key=400291
+[103] - <12 15 16 17 18 28 29 31 41 > true count=1073, estimated count=179688, Key=362179
+[104] - <1 12 15 16 17 18 22 > true count=1092, estimated count=179705, Key=265341
+[105] - <12 14 16 17 18 25 43 > true count=1067, estimated count=179703, Key=390325
+[106] - <12 14 15 16 17 18 21 25 27 28 31 43 > true count=8, estimated count=179689, Key=491221
+[107] - <12 17 18 21 24 27 28 31 66 > true count=21, estimated count=179701, Key=395870
+[108] - <12 17 18 25 31 41 66 > true count=1699, estimated count=179704, Key=605084
+[109] - <1 12 15 16 17 18 31 41 > true count=1090, estimated count=179698, Key=305171
+[110] - <1 12 16 17 18 21 22 > true count=1965, estimated count=179708, Key=282055
+[111] - <12 16 17 18 21 25 27 28 31 43 63 66 > true count=10, estimated count=179686, Key=708977
+[112] - <12 17 18 31 38 66 > true count=1928, estimated count=179719, Key=434024
+[113] - <12 17 18 25 27 29 31 > true count=1889, estimated count=179716, Key=396381
+[114] - <12 15 16 17 18 25 31 41 43 59 60 66 > true count=7, estimated count=179690, Key=734907
+[115] - <1 12 16 17 18 21 28 29 31 > true count=1078, estimated count=179724, Key=325567
+[116] - <15 17 24 28 41 > true count=20, estimated count=179691, Key=207323
+[117] - <12 16 17 18 21 24 27 31 43 59 66 > true count=16, estimated count=179690, Key=556172
+[118] - <1 12 17 18 21 22 27 > true count=208, estimated count=179693, Key=319210
+[119] - <12 15 16 17 18 21 24 27 31 66 > true count=22, estimated count=179693, Key=390647
+[120] - <12 14 16 17 18 29 31 41 43 59 66 > true count=11, estimated count=179686, Key=579208
+[121] - <1 12 17 18 21 22 31 > true count=217, estimated count=179693, Key=336894
+[122] - <12 16 17 18 21 28 41 59 > true count=1074, estimated count=179703, Key=404848
+[123] - <17 24 27 28 29 66 > true count=21, estimated count=179687, Key=418199
+[124] - <12 14 16 17 18 24 31 43 59 > true count=17, estimated count=179687, Key=366008
+[125] - <12 15 16 17 18 22 24 25 31 43 > true count=6, estimated count=179687, Key=365959
+[126] - <17 18 28 46 66 > true count=1077, estimated count=179845, Key=317387
+[127] - <8 12 15 16 17 66 > true count=12903, estimated count=179699, Key=339974
+[128] - <12 15 16 17 18 22 31 43 > true count=1094, estimated count=179710, Key=327120
+[129] - <1 12 17 18 27 59 > true count=1740, estimated count=179697, Key=348834
+[130] - <12 16 17 18 25 29 41 > true count=1917, estimated count=179739, Key=419366
+[131] - <12 16 17 18 24 28 29 31 > true count=2944, estimated count=179746, Key=360015
+[132] - <12 16 17 18 21 25 29 66 > true count=1923, estimated count=179717, Key=341060
+[133] - <12 16 17 18 21 28 31 59 66 > true count=1099, estimated count=179718, Key=396740
+[134] - <12 14 16 17 18 21 27 > true count=2014, estimated count=179723, Key=305265
+[135] - <12 17 18 21 24 27 28 29 > true count=22, estimated count=179705, Key=359766
+[136] - <12 15 16 17 18 21 22 27 31 > true count=47, estimated count=179702, Key=300691
+[137] - <12 16 17 18 22 29 31 43 > true count=1761, estimated count=179709, Key=366952
+[138] - <12 16 17 18 24 31 41 59 > true count=22, estimated count=179705, Key=423838
+[139] - <12 16 17 18 21 22 28 43 > true count=1088, estimated count=179699, Key=325873
+[140] - <1 12 16 17 18 24 41 > true count=10679, estimated count=179794, Key=376797
+[141] - <12 15 16 17 18 29 31 59 > true count=1108, estimated count=179754, Key=352203
+[142] - <12 16 17 18 31 43 46 > true count=1085, estimated count=179714, Key=508099
+[143] - <1 12 16 17 18 22 31 43 > true count=1095, estimated count=179704, Key=325468
+[144] - <1 12 17 18 28 59 66 > true count=1068, estimated count=179688, Key=643369
+[145] - <12 16 17 18 25 31 41 43 > true count=1268, estimated count=179793, Key=426571
+[146] - <12 16 17 18 21 22 31 66 > true count=2070, estimated count=179772, Key=339159
+[147] - <12 16 17 18 28 31 41 59 66 > true count=1081, estimated count=179823, Key=470936
+[148] - <12 15 16 17 18 22 28 43 > true count=1083, estimated count=179699, Key=313857
+[149] - <12 17 18 21 25 41 > true count=1942, estimated count=179723, Key=288832
+[150] - <12 14 16 17 18 31 59 > true count=1071, estimated count=179712, Key=482547
+[151] - <10 12 17 18 21 29 66 > true count=60, estimated count=179692, Key=516705
+[152] - <16 17 18 25 27 28 66 > true count=1077, estimated count=179703, Key=547539
+[153] - <12 16 17 18 28 43 46 > true count=1073, estimated count=179791, Key=499852
+[154] - <12 15 16 17 18 27 28 59 > true count=1076, estimated count=179746, Key=331778
+[155] - <1 12 16 17 18 27 28 66 > true count=1092, estimated count=179712, Key=330133
+[156] - <1 12 16 17 18 22 28 31 > true count=1175, estimated count=180171, Key=312193
+[157] - <1 12 16 17 18 21 29 31 66 > true count=7408, estimated count=181013, Key=349135
+[158] - <12 17 18 21 27 29 41 66 > true count=1938, estimated count=179720, Key=432685
+[159] - <12 16 17 18 25 28 31 41 > true count=1145, estimated count=179772, Key=371616
+[160] - <1 16 17 18 25 28 66 > true count=1078, estimated count=179697, Key=526299
+[161] - <12 15 16 17 18 22 25 31 41 43 59 66 > true count=10, estimated count=179693, Key=674877
+[162] - <12 16 17 18 24 25 66 > true count=14490, estimated count=180530, Key=512818
+[163] - <12 17 18 28 38 > true count=1084, estimated count=179695, Key=191699
+[164] - <12 16 17 18 21 28 31 41 43 > true count=1128, estimated count=179738, Key=384141
+[165] - <12 14 16 17 18 43 66 > true count=1069, estimated count=179705, Key=556466
+[166] - <12 16 17 18 27 29 41 43 > true count=1968, estimated count=179717, Key=424907
+[167] - <10 12 15 17 18 21 27 66 > true count=59, estimated count=179691, Key=303006
+[168] - <12 15 16 17 18 25 27 > true count=1115, estimated count=179738, Key=320136
+[169] - <12 17 18 41 63 > true count=1997, estimated count=179699, Key=286333
+[170] - <12 15 16 17 18 24 31 66 > true count=13950, estimated count=180722, Key=334305
+[171] - <12 16 17 18 21 31 41 43 59 > true count=1773, estimated count=179725, Key=447848
+[172] - <12 16 17 18 21 23 27 66 > true count=57, estimated count=179690, Key=325056
+[173] - <12 17 18 27 31 41 43 66 > true count=1780, estimated count=179700, Key=507453
+[174] - <8 12 17 24 28 29 > true count=12123, estimated count=179767, Key=256118
+[175] - <1 12 16 17 18 21 28 31 43 > true count=1121, estimated count=179760, Key=332133
+[176] - <12 16 17 18 21 25 28 31 66 > true count=1092, estimated count=179738, Key=372706
+[177] - <1 12 15 16 17 18 27 31 > true count=1954, estimated count=179758, Key=287477
+[178] - <12 15 16 17 18 21 27 28 31 66 > true count=1120, estimated count=179791, Key=403911
+[179] - <12 17 18 21 27 63 > true count=2012, estimated count=179777, Key=373112
+[180] - <12 15 16 17 18 21 28 43 66 > true count=1088, estimated count=179707, Key=346378
+[181] - <12 16 17 28 29 41 59 > true count=1071, estimated count=179696, Key=572842
+[182] - <12 14 15 16 17 18 21 28 > true count=1075, estimated count=179696, Key=262053
+[183] - <1 12 15 16 17 18 25 > true count=1095, estimated count=179702, Key=278604
+[184] - <1 12 16 17 18 22 31 66 > true count=1067, estimated count=179722, Key=325491
+[185] - <1 12 15 16 17 18 59 > true count=1081, estimated count=179707, Key=428918
+[186] - <12 14 15 16 17 18 25 28 31 41 43 63 66 > true count=7, estimated count=179686, Key=842315
+[187] - <10 12 15 16 17 18 21 24 25 27 30 31 41 43 66 > true count=4, estimated count=179687, Key=789810
+[188] - <8 10 12 16 17 18 24 25 31 41 43 63 66 > true count=5, estimated count=179685, Key=832012
+[189] - <12 16 17 18 21 25 27 31 38 41 43 60 66 > true count=7, estimated count=179686, Key=890343
+[190] - <12 14 15 16 17 18 21 25 27 31 41 43 66 > true count=10, estimated count=179686, Key=751184
+[191] - <12 16 17 18 22 27 31 66 > true count=471, estimated count=179735, Key=359813
+[192] - <12 16 17 18 25 29 31 43 > true count=21013, estimated count=181499, Key=375199
+[193] - <12 16 17 18 24 63 > true count=12992, estimated count=180189, Key=357110
+[194] - <8 12 17 18 24 28 43 63 66 > true count=7, estimated count=179685, Key=455851
+[195] - <10 12 17 27 28 > true count=35, estimated count=179685, Key=158250
+[196] - <12 16 17 18 25 28 31 38 41 43 60 63 66 > true count=7, estimated count=179689, Key=976000
+[197] - <12 15 16 17 18 28 29 31 43 > true count=1170, estimated count=179787, Key=363273
+[198] - <12 16 17 18 22 28 29 31 > true count=1138, estimated count=179755, Key=354517
+[199] - <12 17 18 21 27 28 38 43 63 66 > true count=7, estimated count=179684, Key=531393
+[200] - <1 12 17 18 27 28 31 66 > true count=1083, estimated count=179693, Key=374940
+[201] - <12 17 18 21 24 25 27 28 43 66 > true count=10, estimated count=179687, Key=452817
+[202] - <12 16 17 18 31 41 43 59 > true count=185221, estimated count=192397, Key=487733
+[203] - <10 12 17 18 23 31 > true count=55, estimated count=179717, Key=237579
+[204] - <12 16 17 18 46 66 > true count=1108, estimated count=179727, Key=428331
+[205] - <12 17 18 21 27 29 41 43 > true count=1943, estimated count=179693, Key=432662
+[206] - <12 17 18 31 43 63 > true count=21049, estimated count=188186, Key=437026
+[207] - <12 17 18 21 25 28 29 > true count=1082, estimated count=179694, Key=370488
+[208] - <12 15 16 17 18 21 27 29 66 > true count=1986, estimated count=179758, Key=341943
+[209] - <1 12 17 18 22 28 31 43 > true count=1075, estimated count=179713, Key=361172
+[210] - <10 12 17 18 21 27 29 > true count=59, estimated count=179706, Key=345966
+[211] - <12 15 16 17 18 46 > true count=1079, estimated count=179712, Key=275970
+[212] - <1 12 16 17 18 31 41 59 > true count=1455, estimated count=179774, Key=401923
+[213] - <12 16 17 18 21 29 41 59 > true count=1769, estimated count=179691, Key=408429
+[214] - <12 16 17 18 21 27 28 31 59 > true count=1144, estimated count=179754, Key=376039
+[215] - <12 15 16 17 18 21 31 43 66 > true count=2020, estimated count=179770, Key=359641
+[216] - <12 16 17 18 21 28 31 41 66 > true count=1101, estimated count=179736, Key=396722
+[217] - <12 14 15 16 17 18 28 31 43 > true count=1058, estimated count=179777, Key=316524
+[218] - <12 15 16 17 18 27 31 59 > true count=1102, estimated count=179728, Key=345041
+[219] - <12 17 18 21 31 38 > true count=1987, estimated count=179718, Key=294583
+[220] - <12 15 16 17 18 21 27 28 29 31 > true count=1084, estimated count=179747, Key=359802
+[221] - <1 12 16 17 18 21 27 29 31 > true count=1850, estimated count=179709, Key=321146
+[222] - <8 12 16 17 18 24 41 66 > true count=13015, estimated count=183335, Key=376870
+[223] - <12 17 24 29 41 66 > true count=12911, estimated count=179741, Key=445659
+[224] - <12 16 17 18 29 31 43 59 66 > true count=1773, estimated count=179728, Key=482527
+[225] - <12 16 17 18 21 27 28 31 41 > true count=1155, estimated count=179754, Key=366193
+[226] - <12 16 17 18 27 29 41 66 > true count=1989, estimated count=179737, Key=424930
+[227] - <12 16 17 18 21 27 28 29 31 66 > true count=1106, estimated count=180102, Key=441835
+[228] - <12 16 17 18 27 28 31 43 59 > true count=1072, estimated count=179735, Key=409389
+[229] - <12 16 17 18 21 25 27 31 43 63 66 > true count=12, estimated count=179694, Key=564669
+[230] - <8 12 17 18 21 24 27 29 > true count=13131, estimated count=180435, Key=326408
+[231] - <12 16 17 18 25 28 31 59 > true count=1130, estimated count=179755, Key=371634
+[232] - <12 15 17 18 25 29 43 66 > true count=12, estimated count=179695, Key=427727
+[233] - <12 15 17 18 22 29 > true count=491, estimated count=179692, Key=229311
+[234] - <12 17 28 46 66 > true count=1077, estimated count=179735, Key=316835
+[235] - <1 12 15 17 18 31 59 > true count=1072, estimated count=179691, Key=480213
+[236] - <12 15 17 18 21 28 29 66 > true count=1088, estimated count=179701, Key=351256
+[237] - <1 15 17 24 > true count=10409, estimated count=179696, Key=76931
+[238] - <12 17 18 24 25 27 28 > true count=18, estimated count=179698, Key=368465
+[239] - <1 12 15 16 17 18 28 31 66 > true count=1111, estimated count=180301, Key=328000
+[240] - <1 8 12 16 17 18 24 31 66 > true count=12137, estimated count=181518, Key=304441
+[241] - <12 16 17 18 28 63 > true count=1031, estimated count=179720, Key=368106
+[242] - <1 8 12 16 17 18 24 29 > true count=10838, estimated count=179836, Key=268337
+[243] - <12 17 18 21 24 28 31 > true count=175276, estimated count=181877, Key=376581
+[244] - <12 16 17 18 21 25 27 43 > true count=1993, estimated count=179975, Key=332195
+[245] - <12 15 16 17 18 28 31 > true count=202733, estimated count=203457, Key=348563
+[246] - <12 14 16 17 18 21 27 31 38 41 43 66 > true count=11, estimated count=179686, Key=643604
+[247] - <12 17 18 21 28 31 41 59 > true count=1027, estimated count=179690, Key=442589
+[248] - <12 15 16 17 18 21 24 25 27 30 31 43 > true count=7, estimated count=179690, Key=524203
+[249] - <8 12 17 21 27 43 > true count=12894, estimated count=179732, Key=297524
+[250] - <8 12 16 17 18 24 29 41 > true count=12895, estimated count=180001, Key=323793
+[251] - <12 16 17 18 22 24 25 31 43 > true count=7, estimated count=179690, Key=346030
+[252] - <12 15 16 17 18 24 27 > true count=139540, estimated count=182570, Key=316555
+[253] - <12 16 17 18 27 29 31 43 66 > true count=16054, estimated count=182368, Key=416799
+[254] - <12 17 18 29 41 43 59 > true count=1798, estimated count=179718, Key=616761
+[255] - <8 12 15 17 18 24 66 > true count=13109, estimated count=180014, Key=486100
+[256] - <12 15 16 17 18 25 28 31 43 > true count=1086, estimated count=179747, Key=348109
+[257] - <12 16 17 18 21 27 31 38 41 43 59 66 > true count=11, estimated count=179686, Key=731331
+[258] - <1 12 15 16 17 18 27 28 > true count=1081, estimated count=179698, Key=287474
+[259] - <1 12 16 17 18 28 31 43 66 > true count=1137, estimated count=179776, Key=383056
+[260] - <1 8 12 17 18 21 24 > true count=13047, estimated count=179924, Key=283793
+[261] - <12 17 18 21 25 27 31 66 > true count=1912, estimated count=179829, Key=375815
+[262] - <12 16 17 18 21 28 31 43 59 > true count=1096, estimated count=179764, Key=392895
+[263] - <12 15 16 17 18 28 41 59 > true count=1063, estimated count=179768, Key=392832
+[264] - <12 14 15 16 17 18 29 31 > true count=1072, estimated count=179734, Key=297424
+[265] - <12 17 18 21 24 27 29 66 > true count=14225, estimated count=179802, Key=364224
+[266] - <12 16 17 18 28 31 46 > true count=1148, estimated count=179764, Key=456880
+[267] - <12 16 17 18 24 25 28 31 41 43 60 66 > true count=7, estimated count=179687, Key=721139
+[268] - <1 12 16 17 18 21 31 59 > true count=9036, estimated count=179890, Key=321903
+[269] - <12 16 17 18 24 28 31 43 > true count=2985, estimated count=179781, Key=368869
+[270] - <12 16 17 18 29 31 41 43 66 > true count=1822, estimated count=179743, Key=473669
+[271] - <12 17 18 27 38 > true count=1978, estimated count=179724, Key=189706
+[272] - <1 12 16 17 18 21 27 31 43 > true count=1828, estimated count=180917, Key=327712
+[273] - <12 17 18 24 25 31 66 > true count=13311, estimated count=179926, Key=550787
+[274] - <12 16 17 18 27 28 31 41 43 > true count=1094, estimated count=179856, Key=400635
+[275] - <1 12 16 17 18 24 29 31 > true count=12593, estimated count=180193, Key=323776
+[276] - <10 12 15 16 17 18 21 24 25 27 31 43 66 > true count=6, estimated count=179689, Key=724147
+[277] - <12 16 17 18 38 66 > true count=5465, estimated count=179875, Key=406339
+[278] - <1 12 17 18 24 43 66 > true count=11085, estimated count=181376, Key=575077
+[279] - <12 16 17 18 22 29 31 66 > true count=1902, estimated count=179808, Key=366975
+[280] - <1 12 16 17 18 31 59 66 > true count=9151, estimated count=179990, Key=481508
+[281] - <8 12 16 17 18 21 24 27 31 > true count=13568, estimated count=180669, Key=307888
+[282] - <12 16 17 18 21 27 31 41 43 > true count=21841, estimated count=181046, Key=380560
+[283] - <8 12 17 18 24 41 43 > true count=12813, estimated count=179759, Key=466239
+[284] - <12 16 17 18 29 31 59 66 > true count=16670, estimated count=182793, Key=517168
+[285] - <12 14 15 16 17 18 27 > true count=1110, estimated count=179731, Key=288551
+[286] - <12 16 17 18 21 25 29 31 > true count=21175, estimated count=180097, Key=341025
+[287] - <12 16 17 18 21 22 31 43 > true count=2006, estimated count=179753, Key=339136
+[288] - <12 15 16 17 18 27 29 43 > true count=1987, estimated count=179736, Key=336183
+[289] - <15 16 17 18 25 28 29 > true count=1071, estimated count=179702, Key=362736
+[290] - <12 16 17 18 21 27 29 31 59 > true count=21053, estimated count=180207, Key=380460
+[291] - <12 16 17 18 22 41 > true count=182188, estimated count=182203, Key=272830
+[292] - <12 16 17 18 28 29 31 66 > true count=16120, estimated count=181485, Key=383469
+[293] - <12 16 17 18 21 28 29 31 59 > true count=1082, estimated count=179701, Key=384041
+[294] - <12 15 16 17 18 28 31 41 66 > true count=1116, estimated count=180165, Key=384706
+[295] - <1 12 17 18 21 27 41 > true count=1905, estimated count=180509, Key=399009
+[296] - <12 16 17 18 21 27 28 29 31 43 > true count=1104, estimated count=179877, Key=413568
+[297] - <12 16 17 18 28 31 41 43 59 > true count=1101, estimated count=179893, Key=467091
+[298] - <12 16 17 18 21 25 27 28 31 > true count=1107, estimated count=179739, Key=349137
+[299] - <12 16 17 18 25 28 29 43 > true count=1088, estimated count=179829, Key=362776
+[300] - <12 16 17 18 22 28 31 59 > true count=1076, estimated count=179755, Key=363387
+[301] - <12 16 17 18 21 22 29 31 > true count=2009, estimated count=179772, Key=330282
+[302] - <12 17 18 28 29 41 59 > true count=1079, estimated count=179886, Key=574618
+[303] - <12 15 16 17 18 28 31 59 66 > true count=1113, estimated count=179785, Key=384724
+[304] - <12 17 18 24 27 31 41 > true count=14153, estimated count=179760, Key=445760
+[305] - <12 16 17 18 21 22 27 28 31 > true count=1085, estimated count=179821, Key=338394
+[306] - <12 16 17 18 24 27 41 > true count=14236, estimated count=180109, Key=409455
+[307] - <12 15 17 18 43 59 66 > true count=1052, estimated count=179831, Key=686256
+[308] - <12 17 18 24 27 29 43 > true count=14278, estimated count=179866, Key=447440
+[309] - <12 15 16 17 18 28 29 59 > true count=1079, estimated count=180434, Key=339780
+[310] - <8 12 16 17 18 21 24 27 66 > true count=12961, estimated count=180151, Key=327033
+[311] - <1 12 17 18 24 27 > true count=11289, estimated count=179845, Key=225995
+[312] - <12 17 18 22 28 31 > true count=182100, estimated count=183236, Key=263262
+[313] - <12 15 16 17 18 22 > true count=185021, estimated count=185041, Key=190026
+[314] - <12 16 17 18 24 28 29 > true count=180297, estimated count=191182, Key=359984
+[315] - <12 16 17 18 21 25 31 43 > true count=21098, estimated count=181675, Key=349879
+[316] - <1 12 16 17 18 25 31 43 > true count=1218, estimated count=179720, Key=336211
+[317] - <12 16 17 18 24 31 43 59 > true count=12841, estimated count=179981, Key=432680
+[318] - <12 15 17 18 28 29 43 66 > true count=1081, estimated count=179931, Key=435974
+[319] - <12 16 17 18 25 28 29 31 66 > true count=1079, estimated count=179832, Key=398866
+[320] - <12 15 16 17 18 22 31 66 > true count=1071, estimated count=179719, Key=327143
+[321] - <12 16 17 18 21 27 28 31 43 66 > true count=1126, estimated count=179835, Key=448401
+[322] - <12 15 17 18 25 43 > true count=122293, estimated count=181999, Key=287692
+[323] - <12 16 17 18 31 43 63 > true count=1782, estimated count=179962, Key=583256
+[324] - <12 16 17 18 41 43 59 66 > true count=1783, estimated count=180949, Key=593128
+[325] - <1 12 16 17 18 25 66 > true count=9144, estimated count=181424, Key=490903
+[326] - <12 16 17 18 28 29 31 59 66 > true count=1090, estimated count=179897, Key=419564
+[327] - <8 12 16 17 18 24 31 43 66 > true count=13722, estimated count=181301, Key=368739
+[328] - <12 16 17 18 27 28 31 59 66 > true count=1083, estimated count=180540, Key=413234
+[329] - <1 12 15 16 17 18 28 29 31 > true count=1069, estimated count=179979, Key=308853
+[330] - <12 17 18 29 63 66 > true count=5399, estimated count=179721, Key=498763
+[331] - <1 12 14 15 16 17 18 21 25 26 27 29 31 43 46 63 64 66 > true count=4, estimated count=179686, Key=963102
+[332] - <12 16 17 18 25 27 31 66 > true count=1952, estimated count=179749, Key=368060
+[333] - <12 16 17 18 24 29 31 41 > true count=177022, estimated count=185006, Key=372448
+[334] - <12 16 17 18 22 28 31 41 > true count=1101, estimated count=179730, Key=363369
+[335] - <8 12 17 18 21 24 41 > true count=12893, estimated count=179704, Key=388273
+[336] - <12 16 17 18 24 28 31 66 > true count=14090, estimated count=180210, Key=368892
+[337] - <12 17 18 28 29 43 66 > true count=4874, estimated count=181990, Key=612727
+[338] - <10 12 17 31 > true count=85450, estimated count=180027, Key=89250
+[339] - <12 15 16 17 18 21 25 31 > true count=1104, estimated count=179768, Key=297001
+[340] - <8 12 16 17 18 24 29 31 > true count=188052, estimated count=204282, Key=323783
+[341] - <8 12 17 18 21 24 29 43 > true count=12888, estimated count=183436, Key=335264
+[342] - <12 15 16 17 18 24 29 31 > true count=13462, estimated count=179976, Key=325428
+[343] - <1 12 16 17 18 28 31 > true count=180074, estimated count=196023, Key=346911
+[344] - <12 16 17 18 25 29 43 66 > true count=1766, estimated count=181040, Key=428274
+[345] - <1 12 14 16 17 18 > true count=1100, estimated count=179705, Key=166850
+[346] - <12 17 18 21 41 59 66 > true count=1969, estimated count=179712, Key=689060
+[347] - <12 15 16 17 18 31 41 59 > true count=1161, estimated count=179721, Key=403575
+[348] - <1 12 16 17 18 22 28 43 > true count=1089, estimated count=179818, Key=312205
+[349] - <12 16 17 18 21 25 27 31 > true count=182463, estimated count=194047, Key=332183
+[350] - <12 16 17 18 27 63 > true count=21343, estimated count=181168, Key=365357
+[351] - <12 16 17 18 31 63 66 > true count=15884, estimated count=180867, Key=668139
+[352] - <12 16 17 18 21 24 31 41 > true count=176303, estimated count=184193, Key=346296
+[353] - <1 12 17 18 21 25 > true count=1733, estimated count=181343, Key=210586
+[354] - <12 15 16 17 18 29 31 43 66 > true count=1792, estimated count=181117, Key=388289
+[355] - <1 12 16 17 18 28 31 43 59 > true count=1082, estimated count=179797, Key=379227
+[356] - <12 14 16 17 18 21 28 31 > true count=1091, estimated count=179896, Key=309717
+[357] - <12 16 17 18 21 27 29 31 41 > true count=183181, estimated count=201974, Key=370614
+[358] - <12 16 17 18 31 41 43 66 > true count=17352, estimated count=181861, Key=487740
+[359] - <8 12 17 18 24 31 41 66 > true count=12874, estimated count=182254, Key=421653
+[360] - <12 16 17 18 24 27 29 66 > true count=14425, estimated count=179974, Key=356469
+[361] - <12 15 16 17 18 27 31 43 > true count=184175, estimated count=184251, Key=345025
+[362] - <12 15 16 17 18 21 25 27 > true count=53, estimated count=179732, Key=296997
+[363] - <12 15 16 17 18 25 28 31 66 > true count=1116, estimated count=180089, Key=360690
+[364] - <12 15 16 17 18 24 28 31 > true count=1072, estimated count=179738, Key=321007
+[365] - <8 12 17 18 24 25 66 > true count=13020, estimated count=179842, Key=510626
+[366] - <12 16 17 18 21 25 28 31 43 > true count=1087, estimated count=179868, Key=360125
+[367] - <12 16 17 18 28 29 31 41 66 > true count=1102, estimated count=179712, Key=419546
+[368] - <12 16 17 18 22 25 28 31 > true count=1118, estimated count=179759, Key=339353
+[369] - <12 16 17 18 21 29 31 41 66 > true count=16080, estimated count=180042, Key=400303
+[370] - <12 15 16 17 21 28 31 > true count=99471, estimated count=185333, Key=356810
+[371] - <12 14 15 16 17 18 25 66 > true count=1071, estimated count=179723, Key=279775
+[372] - <12 16 17 18 21 25 27 31 38 41 43 63 66 > true count=7, estimated count=179687, Key=898590
+[373] - <10 12 16 17 18 > true count=191316, estimated count=196761, Key=109601
+[374] - <12 15 16 17 18 28 29 31 66 > true count=1181, estimated count=179799, Key=375854
+[375] - <12 16 17 18 27 28 29 31 > true count=179509, estimated count=183971, Key=368262
+[376] - <8 12 16 17 18 21 24 31 66 > true count=13709, estimated count=180756, Key=327037
+[377] - <8 12 16 17 18 24 25 31 > true count=13146, estimated count=182614, Key=306099
+[378] - <12 16 17 18 24 25 28 31 41 43 63 66 > true count=7, estimated count=179686, Key=727118
+[379] - <12 16 17 18 25 31 41 > true count=187904, estimated count=194852, Key=426528
+[380] - <12 16 17 18 21 24 27 29 31 > true count=17730, estimated count=180185, Key=345557
+[381] - <12 14 16 17 18 43 > true count=185274, estimated count=185282, Key=264680
+[382] - <8 12 17 18 24 27 31 66 > true count=13029, estimated count=182158, Key=363119
+[383] - <8 12 16 17 18 24 28 66 > true count=12200, estimated count=180773, Key=319397
+[384] - <1 12 16 17 18 27 31 > true count=179491, estimated count=222389, Key=343330
+[385] - <12 15 16 17 18 21 31 43 > true count=193219, estimated count=193242, Key=323539
+[386] - <12 15 16 17 18 21 27 31 66 > true count=16035, estimated count=182114, Key=341945
+[387] - <12 17 18 21 28 31 41 > true count=182871, estimated count=182891, Key=442530
+[388] - <12 16 17 18 24 31 43 46 66 > true count=13, estimated count=179686, Key=468769
+[389] - <1 12 15 16 17 18 21 25 26 27 28 29 31 41 43 46 53 56 59 64 66 > true count=3, estimated count=179686, Key=1621258
+[390] - <1 12 15 16 17 18 21 25 26 27 29 31 41 43 46 59 64 66 > true count=4, estimated count=179687, Key=1030803
+[391] - <8 12 17 18 21 24 27 31 66 > true count=22, estimated count=179686, Key=362512
+[392] - <12 16 17 18 21 24 27 43 > true count=183270, estimated count=207705, Key=328614
+[393] - <12 16 17 18 21 24 27 31 > true count=200523, estimated count=200537, Key=328602
+[394] - <12 17 18 21 27 31 41 59 > true count=21099, estimated count=182487, Key=439840
+[395] - <12 16 17 18 21 24 29 31 43 > true count=14124, estimated count=185413, Key=360965
+[396] - <12 15 16 17 18 29 31 66 > true count=17110, estimated count=181912, Key=352210
+[397] - <1 12 16 17 18 21 27 28 31 > true count=1144, estimated count=179786, Key=321145
+[398] - <8 10 12 17 18 24 38 43 63 66 > true count=5, estimated count=179685, Key=473149
+[399] - <12 16 17 18 25 31 43 > true count=206023, estimated count=206043, Key=435370
+[400] - <12 16 17 18 21 29 31 43 59 > true count=1814, estimated count=179763, Key=396476
+[401] - <12 16 17 18 21 24 29 31 66 > true count=14684, estimated count=180541, Key=373546
+[402] - <12 15 16 17 18 28 43 > true count=124603, estimated count=183030, Key=401615
+[403] - <12 16 17 18 22 25 31 > true count=1275, estimated count=180938, Key=352585
+[404] - <12 16 17 18 21 25 29 > true count=191339, estimated count=218432, Key=340994
+[405] - <12 15 16 17 18 21 29 43 > true count=100034, estimated count=202683, Key=314697
+[406] - <12 16 17 18 21 27 31 43 59 > true count=21050, estimated count=180575, Key=389314
+[407] - <12 16 17 18 29 31 63 > true count=21146, estimated count=193067, Key=534786
+[408] - <1 12 16 17 18 27 28 31 43 > true count=1085, estimated count=180306, Key=353619
+[409] - <12 17 18 25 28 43 59 > true count=1055, estimated count=179737, Key=573052
+[410] - <12 16 17 18 22 28 31 43 66 > true count=1075, estimated count=179713, Key=399473
+[411] - <12 16 17 18 27 41 43 66 > true count=1968, estimated count=179717, Key=476744
+[412] - <12 15 16 17 18 41 43 > true count=183172, estimated count=224901, Key=448168
+[413] - <12 16 17 18 22 31 43 > true count=185457, estimated count=193703, Key=427123
+[414] - <12 16 17 18 31 41 43 46 66 > true count=13, estimated count=179695, Key=523822
+[415] - <12 15 16 17 18 22 28 31 > true count=1175, estimated count=180814, Key=313845
+[416] - <12 17 18 21 30 > true count=21098, estimated count=179773, Key=155756
+[417] - <1 12 16 17 18 29 31 59 > true count=8978, estimated count=183072, Key=350551
+[418] - <8 12 16 17 18 24 28 31 > true count=14235, estimated count=181179, Key=319362
+[419] - <12 17 18 24 43 59 > true count=168163, estimated count=201646, Key=408751
+[420] - <8 12 17 18 24 28 31 > true count=154828, estimated count=221225, Key=366634
+[421] - <12 16 17 18 21 27 29 31 43 66 > true count=2014, estimated count=179835, Key=452822
+[422] - <12 17 18 27 63 > true count=180790, estimated count=219839, Key=258431
+[423] - <12 16 17 18 24 29 31 43 66 > true count=13015, estimated count=180200, Key=408552
+[424] - <12 15 16 17 18 21 27 43 66 > true count=1945, estimated count=179846, Key=341957
+[425] - <12 16 17 18 21 24 27 31 66 > true count=14746, estimated count=181084, Key=364704
+[426] - <8 12 16 17 18 21 24 31 43 > true count=13251, estimated count=180740, Key=314456
+[427] - <1 12 17 18 25 28 66 > true count=1088, estimated count=180045, Key=524111
+[428] - <12 16 17 18 21 25 27 29 > true count=1921, estimated count=179758, Key=332181
+[429] - <12 16 17 18 21 28 29 31 41 > true count=1097, estimated count=179883, Key=374195
+[430] - <1 12 16 17 18 21 31 43 66 > true count=7373, estimated count=181725, Key=357989
+[431] - <12 16 17 18 31 63 > true count=201554, estimated count=201575, Key=376353
+[432] - <12 16 17 18 27 28 31 41 66 > true count=1076, estimated count=180113, Key=413216
+[433] - <12 16 17 18 21 29 31 59 66 > true count=1787, estimated count=179741, Key=400321
+[434] - <15 17 21 27 29 31 66 > true count=240, estimated count=179839, Key=571452
+[435] - <12 17 18 24 31 41 59 > true count=13667, estimated count=179916, Key=572144
+[436] - <1 12 16 17 18 29 31 41 > true count=11221, estimated count=180374, Key=350533
+[437] - <8 12 16 17 18 24 31 43 > true count=184253, estimated count=199815, Key=332637
+[438] - <1 12 16 17 18 27 31 41 > true count=1902, estimated count=179731, Key=343371
+[439] - <12 16 17 18 25 31 59 66 > true count=1057, estimated count=179716, Key=506172
+[440] - <12 17 18 31 41 43 59 66 > true count=1777, estimated count=180628, Key=620813
+[441] - <12 16 17 18 21 38 > true count=183903, estimated count=209893, Key=259338
+[442] - <12 16 17 24 27 43 66 > true count=12752, estimated count=180029, Key=597481
+[443] - <12 14 16 17 18 27 28 31 > true count=1067, estimated count=179728, Key=331203
+[444] - <12 16 17 18 27 28 43 > true count=185861, estimated count=185883, Key=430125
+[445] - <12 15 16 17 18 21 27 43 > true count=185401, estimated count=185426, Key=305855
+[446] - <12 15 17 18 21 28 31 43 66 > true count=1077, estimated count=179995, Key=396177
+[447] - <12 17 18 21 29 41 43 > true count=182985, estimated count=228763, Key=489931
+[448] - <12 15 16 17 18 29 43 66 > true count=2037, estimated count=181617, Key=405262
+[449] - <12 16 17 18 21 28 31 66 > true count=16089, estimated count=181384, Key=360645
+[450] - <12 17 18 25 27 28 66 > true count=1090, estimated count=180159, Key=547535
+[451] - <12 15 16 17 18 21 28 31 41 > true count=1079, estimated count=179846, Key=332691
+[452] - <12 16 17 18 21 24 31 59 > true count=13713, estimated count=179992, Key=346314
+[453] - <12 16 17 18 28 31 43 59 66 > true count=1144, estimated count=180701, Key=479778
+[454] - <12 17 18 30 31 > true count=26948, estimated count=182994, Key=176442
+[455] - <12 15 17 18 21 28 31 > true count=175834, estimated count=189693, Key=360032
+[456] - <1 12 16 17 18 21 28 31 66 > true count=1105, estimated count=180222, Key=344714
+[457] - <1 12 16 17 18 21 29 43 > true count=7467, estimated count=179932, Key=313045
+[458] - <12 17 18 27 28 31 43 > true count=181601, estimated count=181619, Key=463330
+[459] - <8 12 17 18 28 29 > true count=12128, estimated count=179707, Key=244160
+[460] - <1 12 16 17 18 21 27 31 66 > true count=7464, estimated count=180633, Key=340293
+[461] - <12 17 18 28 43 59 > true count=174148, estimated count=231754, Key=416723
+[462] - <1 12 15 16 17 18 28 31 43 > true count=1129, estimated count=180159, Key=315419
+[463] - <12 14 15 16 17 18 28 31 66 > true count=1090, estimated count=179792, Key=329105
+[464] - <12 17 18 25 28 29 > true count=175684, estimated count=183073, Key=262079
+[465] - <12 15 17 18 28 29 31 59 > true count=1072, estimated count=179746, Key=382915
+[466] - <12 16 17 18 22 27 43 > true count=1965, estimated count=179712, Key=412799
+[467] - <8 12 16 17 18 24 29 31 66 > true count=13886, estimated count=180708, Key=359885
+[468] - <12 16 17 18 21 28 29 31 > true count=193402, estimated count=219850, Key=351768
+[469] - <12 17 18 27 29 31 41 66 > true count=1934, estimated count=179921, Key=457303
+[470] - <12 16 17 18 21 31 41 43 66 > true count=2001, estimated count=180259, Key=451677
+[471] - <12 17 18 21 27 28 29 > true count=184481, estimated count=184505, Key=375986
+[472] - <8 15 17 29 > true count=12957, estimated count=179709, Key=86903
+[473] - <12 15 16 17 18 22 28 66 > true count=1086, estimated count=179704, Key=313880
+[474] - <12 16 17 18 21 24 28 > true count=177893, estimated count=189583, Key=332992
+[475] - <1 12 16 17 18 24 28 > true count=8627, estimated count=179756, Key=319324
+[476] - <12 16 17 18 21 31 63 > true count=21150, estimated count=180980, Key=512794
+[477] - <12 16 17 18 24 31 41 66 > true count=14876, estimated count=188341, Key=423845
+[478] - <1 12 16 17 18 28 29 31 66 > true count=1077, estimated count=180310, Key=374202
+[479] - <12 15 17 18 24 31 43 > true count=146499, estimated count=188528, Key=432074
+[480] - <8 12 16 17 18 21 24 29 66 > true count=13042, estimated count=181670, Key=327035
+[481] - <12 16 17 18 28 31 59 > true count=192753, estimated count=198594, Key=514353
+[482] - <12 15 16 17 18 25 29 31 > true count=1089, estimated count=179715, Key=329009
+[483] - <1 12 16 17 18 29 31 43 66 > true count=7374, estimated count=179810, Key=386637
+[484] - <1 12 16 17 18 25 31 66 > true count=1170, estimated count=179708, Key=336234
+[485] - <12 16 17 28 29 31 41 > true count=173714, estimated count=185172, Key=457454
+[486] - <12 16 17 18 25 28 43 > true count=174702, estimated count=185324, Key=424627
+[487] - <12 16 17 18 21 28 31 43 > true count=188925, estimated count=188946, Key=360622
+[488] - <12 16 17 18 21 27 29 59 > true count=25273, estimated count=202271, Key=348215
+[489] - <1 12 16 17 18 21 31 41 > true count=11602, estimated count=180298, Key=321885
+[490] - <12 16 17 18 25 29 31 > true count=204042, estimated count=204063, Key=375156
+[491] - <12 16 17 18 21 27 29 31 43 > true count=190718, estimated count=211670, Key=371708
+[492] - <1 12 16 17 18 25 28 31 > true count=1157, estimated count=179815, Key=322936
+[493] - <12 16 17 18 25 29 31 43 46 66 > true count=12, estimated count=179688, Key=481475
+[494] - <12 16 17 18 21 24 29 31 > true count=198769, estimated count=198785, Key=337444
+[495] - <12 16 17 18 28 29 31 41 43 > true count=1112, estimated count=179749, Key=406965
+[496] - <12 15 16 17 25 28 29 > true count=1072, estimated count=179698, Key=358964
+[497] - <12 17 18 24 28 29 31 > true count=176116, estimated count=182736, Key=397137
+[498] - <8 12 17 18 24 29 43 > true count=33990, estimated count=203790, Key=423267
+[499] - <12 16 17 18 24 29 31 59 > true count=12908, estimated count=179993, Key=372466
+[500] - <12 16 17 18 21 25 43 66 > true count=1968, estimated count=181152, Key=402954
+[501] - <12 15 16 17 18 21 27 28 31 43 > true count=1103, estimated count=179845, Key=375644
+[502] - <12 16 17 18 21 27 31 41 59 > true count=1970, estimated count=180423, Key=389312
+[503] - <12 16 17 18 22 24 > true count=177439, estimated count=182360, Key=211953
+[504] - <12 16 17 18 31 38 > true count=194467, estimated count=194478, Key=286828
+[505] - <12 17 18 28 29 31 41 > true count=177014, estimated count=183337, Key=459230
+[506] - <12 16 17 18 21 27 41 59 > true count=21092, estimated count=183717, Key=401267
+[507] - <8 12 17 18 21 24 27 > true count=179926, estimated count=235624, Key=326379
+[508] - <12 14 15 16 17 18 25 28 31 > true count=1098, estimated count=179838, Key=296694
+[509] - <8 12 16 17 18 24 29 43 66 > true count=12777, estimated count=181152, Key=359897
+[510] - <12 16 17 18 30 > true count=35484, estimated count=181186, Key=148001
+[511] - <12 16 17 18 21 29 31 41 43 > true count=21369, estimated count=180509, Key=387722
+[512] - <12 15 16 17 18 21 28 31 59 > true count=1045, estimated count=180552, Key=342537
+[513] - <12 16 17 18 21 25 31 66 > true count=15951, estimated count=182234, Key=349902
+[514] - <12 15 16 17 18 28 31 41 43 > true count=1122, estimated count=179754, Key=372125
+[515] - <12 16 17 18 25 29 43 > true count=190497, estimated count=219824, Key=428208
+[516] - <12 16 17 18 25 28 31 > true count=196068, estimated count=200574, Key=371575
+[517] - <8 12 17 27 29 31 > true count=12904, estimated count=179732, Key=272008
+[518] - <12 16 17 18 21 24 25 > true count=13755, estimated count=181253, Key=319729
+[519] - <12 16 17 18 28 31 41 > true count=203414, estimated count=203434, Key=434775
+[520] - <12 16 17 18 28 29 41 > true count=178405, estimated count=209664, Key=427613
+[521] - <1 12 15 16 17 18 31 > true count=180097, estimated count=190797, Key=305130
+[522] - <12 16 17 18 28 29 31 43 > true count=181399, estimated count=188432, Key=383446
+[523] - <1 8 12 16 17 18 24 43 > true count=12429, estimated count=180665, Key=268351
+[524] - <12 16 17 18 38 43 > true count=1977, estimated count=181519, Key=323976
+[525] - <1 12 16 17 18 25 28 43 > true count=1068, estimated count=179845, Key=322948
+[526] - <1 12 16 17 18 21 31 > true count=192954, estimated count=200690, Key=321844
+[527] - <12 16 17 18 24 25 29 > true count=151144, estimated count=183721, Key=349241
+[528] - <12 16 17 18 21 31 43 59 > true count=190637, estimated count=222123, Key=424433
+[529] - <8 12 16 17 18 24 31 59 > true count=13360, estimated count=180175, Key=332653
+[530] - <12 16 17 18 27 31 59 66 > true count=16126, estimated count=183178, Key=511670
+[531] - <12 16 17 18 21 31 43 59 66 > true count=1825, estimated count=181113, Key=460535
+[532] - <12 16 17 18 21 27 29 43 66 > true count=16315, estimated count=184976, Key=384301
+[533] - <12 16 17 18 21 27 31 41 66 > true count=16286, estimated count=180249, Key=393141
+[534] - <12 16 17 18 28 29 31 43 66 > true count=1193, estimated count=179824, Key=419548
+[535] - <1 12 17 18 24 29 66 > true count=10786, estimated count=179744, Key=524943
+[536] - <12 15 16 17 18 21 27 31 41 > true count=1966, estimated count=181031, Key=328270
+[537] - <1 12 16 17 18 31 43 > true count=188931, estimated count=193919, Key=410706
+[538] - <8 12 16 17 18 24 27 29 > true count=13306, estimated count=180495, Key=314939
+[539] - <12 16 17 18 25 28 31 43 66 > true count=1136, estimated count=180117, Key=407720
+[540] - <12 14 15 16 17 18 25 > true count=123717, estimated count=183795, Key=279709
+[541] - <12 16 17 18 22 28 > true count=185596, estimated count=190366, Key=226277
+[542] - <8 12 16 17 18 24 27 43 > true count=12897, estimated count=179896, Key=314953
+[543] - <12 15 16 17 18 21 31 41 > true count=183867, estimated count=235269, Key=323537
+[544] - <12 15 16 17 21 27 31 43 > true count=21191, estimated count=187213, Key=353272
+[545] - <12 14 16 17 18 29 > true count=186548, estimated count=186556, Key=214546
+[546] - <1 12 15 16 17 18 21 28 31 > true count=1085, estimated count=180059, Key=277905
+[547] - <12 16 17 18 21 29 31 43 66 > true count=17074, estimated count=183544, Key=400305
+[548] - <12 16 17 18 21 27 31 59 66 > true count=2016, estimated count=180835, Key=393159
+[549] - <12 16 17 18 24 28 43 > true count=178553, estimated count=185667, Key=421878
+[550] - <12 16 17 18 27 43 59 66 > true count=1774, estimated count=180417, Key=554642
+[551] - <12 15 16 17 18 24 43 > true count=156983, estimated count=185048, Key=387291
+[552] - <12 16 17 18 21 28 29 43 66 > true count=1085, estimated count=179707, Key=387882
+[553] - <12 16 17 30 31 > true count=21050, estimated count=179732, Key=174666
+[554] - <1 12 16 17 18 28 31 41 43 > true count=1088, estimated count=180360, Key=370473
+[555] - <12 16 17 18 28 31 41 43 66 > true count=1142, estimated count=179773, Key=470920
+[556] - <12 15 16 17 18 27 29 31 66 > true count=1968, estimated count=181381, Key=372273
+[557] - <12 16 17 18 29 31 43 59 > true count=187317, estimated count=190299, Key=446425
+[558] - <12 16 17 18 25 27 31 43 > true count=1969, estimated count=181083, Key=368037
+[559] - <12 17 18 27 29 31 41 43 > true count=1942, estimated count=179933, Key=457280
+[560] - <12 16 17 18 21 24 29 43 > true count=176623, estimated count=203614, Key=337456
+[561] - <12 16 17 18 21 24 27 31 43 > true count=17301, estimated count=183829, Key=352123
+[562] - <8 12 16 17 18 24 25 > true count=152690, estimated count=205928, Key=306068
+[563] - <12 15 17 18 27 31 41 > true count=21161, estimated count=183774, Key=431479
+[564] - <12 17 18 21 27 28 43 > true count=181479, estimated count=201697, Key=437880
+[565] - <12 16 17 18 43 63 > true count=184057, estimated count=214648, Key=409341
+[566] - <12 16 17 18 24 31 41 43 > true count=14476, estimated count=183226, Key=423822
+[567] - <12 16 17 18 28 31 43 66 > true count=16055, estimated count=183012, Key=443683
+[568] - <12 15 16 17 18 21 28 > true count=178236, estimated count=184854, Key=310233
+[569] - <12 16 17 18 25 31 59 > true count=181399, estimated count=184072, Key=506106
+[570] - <12 15 17 18 28 31 43 > true count=108984, estimated count=216770, Key=443070
+[571] - <1 12 16 17 18 21 24 31 > true count=13003, estimated count=180365, Key=290928
+[572] - <12 15 17 18 21 25 > true count=101948, estimated count=181981, Key=212238
+[573] - <1 12 16 17 18 21 27 > true count=177918, estimated count=203874, Key=304160
+[574] - <12 16 17 18 29 38 > true count=181457, estimated count=205227, Key=281330
+[575] - <12 15 16 17 18 24 29 > true count=183004, estimated count=232924, Key=325397
+[576] - <12 16 17 18 28 29 31 43 59 > true count=1109, estimated count=179827, Key=415719
+[577] - <12 16 17 18 22 29 31 > true count=186631, estimated count=195063, Key=366909
+[578] - <12 15 16 17 18 28 31 43 59 > true count=1116, estimated count=179742, Key=380879
+[579] - <8 12 16 17 18 24 29 31 43 > true count=13247, estimated count=180450, Key=347304
+[580] - <12 15 16 17 18 29 31 43 > true count=189545, estimated count=192717, Key=352187
+[581] - <8 12 16 17 18 21 24 29 > true count=152405, estimated count=208997, Key=290933
+[582] - <12 16 17 18 21 28 41 > true count=183603, estimated count=187919, Key=404789
+[583] - <12 16 17 18 24 25 31 > true count=188579, estimated count=197182, Key=358083
+[584] - <12 16 17 18 24 31 59 66 > true count=13038, estimated count=180063, Key=503423
+[585] - <12 16 17 18 29 31 41 59 > true count=185651, estimated count=188851, Key=437583
+[586] - <8 12 16 17 18 24 31 41 > true count=13919, estimated count=180732, Key=332635
+[587] - <12 16 17 18 24 28 31 > true count=203867, estimated count=203883, Key=368826
+[588] - <12 15 16 17 18 21 27 29 31 > true count=181058, estimated count=221489, Key=322798
+[589] - <12 16 17 18 28 41 43 > true count=176189, estimated count=226143, Key=479427
+[590] - <12 14 15 16 17 18 31 > true count=190693, estimated count=201328, Key=306235
+[591] - <1 12 17 18 21 29 31 43 > true count=7391, estimated count=182683, Key=362004
+[592] - <12 15 16 17 18 29 31 41 > true count=181799, estimated count=184750, Key=352185
+[593] - <12 16 17 18 21 27 29 31 66 > true count=17752, estimated count=181719, Key=384289
+[594] - <12 17 18 24 31 41 43 > true count=170302, estimated count=213431, Key=501408
+[595] - <12 16 17 18 21 24 31 43 66 > true count=14206, estimated count=180557, Key=382400
+[596] - <8 12 15 16 17 18 24 31 > true count=13485, estimated count=180306, Key=274221
+[597] - <12 16 17 18 22 27 > true count=185633, estimated count=185651, Key=222696
+[598] - <12 15 16 17 18 31 43 59 > true count=1871, estimated count=181029, Key=412417
+[599] - <12 16 17 18 21 25 27 66 > true count=2054, estimated count=179893, Key=332218
+[600] - <12 16 17 18 24 25 43 > true count=153544, estimated count=181692, Key=411135
+[601] - <12 14 15 16 17 18 21 > true count=99695, estimated count=188835, Key=262025
+[602] - <12 17 18 21 22 27 66 > true count=1956, estimated count=181090, Key=522237
+[603] - <12 16 17 18 21 22 31 > true count=191694, estimated count=191709, Key=339093
+[604] - <12 15 16 17 18 28 31 43 66 > true count=1217, estimated count=180081, Key=384708
+[605] - <12 15 16 17 18 21 25 28 > true count=1078, estimated count=180521, Key=296998
+[606] - <12 15 16 17 18 25 31 > true count=191815, estimated count=195374, Key=337820
+[607] - <12 16 17 18 21 31 41 59 > true count=188911, estimated count=214075, Key=415591
+[608] - <12 15 16 17 18 21 29 31 66 > true count=2096, estimated count=181345, Key=350787
+[609] - <12 16 17 18 25 41 66 > true count=1954, estimated count=179778, Key=572863
+[610] - <8 12 16 17 18 21 24 31 > true count=186804, estimated count=202076, Key=290935
+[611] - <12 15 17 18 27 28 > true count=121054, estimated count=181572, Key=239475
+[612] - <12 16 17 18 24 31 59 > true count=194506, estimated count=197559, Key=503357
+[613] - <8 12 16 17 18 21 24 29 31 > true count=13627, estimated count=180705, Key=307890
+[614] - <12 16 17 18 21 22 27 31 > true count=2089, estimated count=180903, Key=321440
+[615] - <12 15 16 17 18 21 24 31 > true count=146732, estimated count=183617, Key=292580
+[616] - <12 16 17 18 21 27 28 31 > true count=198027, estimated count=198046, Key=343766
+[617] - <1 12 16 17 18 24 31 43 > true count=12970, estimated count=180440, Key=332630
+[618] - <12 15 16 17 18 28 29 > true count=176470, estimated count=188405, Key=339721
+[619] - <1 12 16 17 18 31 41 66 > true count=11263, estimated count=180500, Key=401930
+[620] - <12 15 17 18 25 29 > true count=101606, estimated count=181044, Key=237558
+[621] - <12 15 17 18 21 31 59 > true count=99603, estimated count=182444, Key=494563
+[622] - <1 12 16 17 18 31 41 43 > true count=9762, estimated count=189353, Key=401907
+[623] - <1 12 16 17 18 29 31 > true count=188867, estimated count=203706, Key=350492
+[624] - <12 15 16 17 18 31 59 > true count=194803, estimated count=194822, Key=483094
+[625] - <8 12 15 16 17 18 24 > true count=157628, estimated count=230490, Key=274190
+[626] - <12 17 18 21 29 41 59 > true count=21186, estimated count=193042, Key=560667

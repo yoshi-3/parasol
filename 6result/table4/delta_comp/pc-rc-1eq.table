@@ -1,0 +1,23 @@
+---OutputTable---
+time=16763
+table_size=20
+[1] - <20 > true count=2, estimated count=1677, Key=20
+[2] - <13 31 > true count=1, estimated count=1677, Key=16970
+[3] - <4 > true count=231, estimated count=1720, Key=4
+[4] - <378 > true count=266, estimated count=1755, Key=378
+[5] - <869 > true count=1, estimated count=1677, Key=869
+[6] - <57 120 > true count=202, estimated count=1850, Key=65697
+[7] - <57 63 > true count=254, estimated count=1743, Key=34518
+[8] - <7 > true count=337, estimated count=1826, Key=7
+[9] - <1134 > true count=276, estimated count=1766, Key=1134
+[10] - <18 > true count=209, estimated count=1698, Key=18
+[11] - <120 126 > true count=1, estimated count=1677, Key=69042
+[12] - <178 > true count=1, estimated count=1677, Key=178
+[13] - <5 57 > true count=231, estimated count=1720, Key=31184
+[14] - <139 > true count=324, estimated count=1813, Key=139
+[15] - <57 > true count=723, estimated count=2212, Key=57
+[16] - <5 > true count=462, estimated count=1951, Key=5
+[17] - <63 > true count=473, estimated count=1962, Key=63
+[18] - <54 57 > true count=214, estimated count=1879, Key=31233
+[19] - <48 57 > true count=206, estimated count=1870, Key=31227
+[20] - <252 > true count=242, estimated count=1731, Key=252

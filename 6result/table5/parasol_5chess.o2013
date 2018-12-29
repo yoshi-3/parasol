@@ -1,0 +1,45 @@
+inputFile: ../../benchmark/5chess.txt
+outputFile: default (ans/table/csv)
+options: <rc. comp. rep. chk. >
++ min support: 0.0000
++ size constant: 12000
+statics of dataset
++ num of transactions: 3196
++ num of item kinds: 75
++ max transaction length: 37
++ ave transaction length: 37.00
+--- result --- 
+Delta: 2434
+final error ratio (Delta / num of transactions): 0.762
+aveage table size: 11728
+max table size: 12000
+total CPU time: 25.820 (sec)    
+(per 1 trans.: 8.079 msec)	
+intersection time: 25.770 (sec)    
+intersection ratio: 0.418
+num of entries before Delta-compression: 12000
+num of entries after quasi Delta-compression: 1468
+CPU time: 0.050 (sec) 
+num of outputs: 446
+inputFile: ../../benchmark/5chess.txt
+outputFile: default (ans/table/csv)
+options: <rc. comp_base. rep. chk. >
++ min support: 0.0000
++ size constant: 12000
+statics of dataset
++ num of transactions: 3196
++ num of item kinds: 75
++ max transaction length: 37
++ ave transaction length: 37.00
+--- result --- 
+Delta: 2434
+final error ratio (Delta / num of transactions): 0.762
+aveage table size: 11728
+max table size: 12000
+total CPU time: 26.730 (sec)    
+(per 1 trans.: 8.364 msec)	
+intersection time: 25.100 (sec)    
+intersection ratio: 0.418
+num of entries before Delta-compression: 12000
+CPU time: 1.630 (sec) 
+num of outputs: 630

@@ -1,0 +1,22 @@
+inputFile: ../../benchmark/2wlog.txt
+outputFile: default (ans/table/csv)
+options: <pc. rc. comp. rep. chk. >
++ min support: 1.0000
++ size constant: 100000
++ error parameter: 0.1000
+statics of dataset
++ num of transactions: 19460
++ num of item kinds: 9958
++ max transaction length: 106
++ ave transaction length: 18.18
+--- result --- 
+Delta: 1946
+final error ratio (Delta / num of transactions): 0.100
+aveage table size: 22174
+max table size: 48997
+total CPU time: 12.920 (sec)    
+(per 1 trans.: 0.664 msec)	
+intersection time: 12.870 (sec)    
+num of entries before Delta-compression: 42204
+num of entries after quasi Delta-compression: 412
+num of outputs: 182

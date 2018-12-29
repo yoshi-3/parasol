@@ -1,0 +1,13 @@
+Intel MPI 2017u2
+delta=2580
+k=12000
+OMP_NUM_THREADS=32
+OMP_SCHEDULE=DYNAMIC
+total time = 1826.31[sec]
+time to prepare = 14.969[sec]
+time to remove = 3.3549[sec]
+time to intersect =  1755.89[sec]
+time to update = 47.3837[sec]
+time per line = 1.84476[msec]
+nonempty ratio per line 14.9507[%]
+Max RSS = 22.3086[MB]

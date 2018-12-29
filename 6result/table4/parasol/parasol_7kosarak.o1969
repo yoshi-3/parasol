@@ -1,0 +1,22 @@
+inputFile: ../../benchmark/7kosarak.txt
+outputFile: default (ans/table/csv)
+options: <pc. rc. comp. rep. chk. >
++ min support: 1.0000
++ size constant: 100000
++ error parameter: 0.1000
+statics of dataset
++ num of transactions: 990002
++ num of item kinds: 41270
++ max transaction length: 2498
++ ave transaction length: 8.10
+--- result --- 
+Delta: 99000
+final error ratio (Delta / num of transactions): 0.100
+aveage table size: 21
+max table size: 72
+total CPU time: 29.210 (sec)    
+(per 1 trans.: 0.030 msec)	
+intersection time: 27.090 (sec)    
+num of entries before Delta-compression: 15
+num of entries after quasi Delta-compression: 12
+num of outputs: 10

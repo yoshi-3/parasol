@@ -1,0 +1,22 @@
+inputFile: ../../benchmark/3retail.txt
+outputFile: default (ans/table/csv)
+options: <pc. rc. comp. rep. chk. >
++ min support: 1.0000
++ size constant: 100000
++ error parameter: 0.1000
+statics of dataset
++ num of transactions: 88162
++ num of item kinds: 16469
++ max transaction length: 76
++ ave transaction length: 10.30
+--- result --- 
+Delta: 8816
+final error ratio (Delta / num of transactions): 0.100
+aveage table size: 26
+max table size: 107
+total CPU time: 3.020 (sec)    
+(per 1 trans.: 0.034 msec)	
+intersection time: 2.820 (sec)    
+num of entries before Delta-compression: 50
+num of entries after quasi Delta-compression: 40
+num of outputs: 30

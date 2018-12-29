@@ -1,0 +1,45 @@
+inputFile: ../../benchmark/1eq.txt
+outputFile: default (ans/table/csv)
+options: <rc. comp. rep. chk. >
++ min support: 0.0000
++ size constant: 12000
+statics of dataset
++ num of transactions: 16764
++ num of item kinds: 1228
++ max transaction length: 73
++ ave transaction length: 2.48
+--- result --- 
+Delta: 20
+final error ratio (Delta / num of transactions): 0.001
+aveage table size: 6017
+max table size: 12000
+total CPU time: 7.260 (sec)    
+(per 1 trans.: 0.433 msec)	
+intersection time: 6.330 (sec)    
+intersection ratio: 0.384
+num of entries before Delta-compression: 12000
+num of entries after quasi Delta-compression: 5129
+CPU time: 0.890 (sec) 
+num of outputs: 3895
+inputFile: ../../benchmark/1eq.txt
+outputFile: default (ans/table/csv)
+options: <rc. comp_base. rep. chk. >
++ min support: 0.0000
++ size constant: 12000
+statics of dataset
++ num of transactions: 16764
++ num of item kinds: 1228
++ max transaction length: 73
++ ave transaction length: 2.48
+--- result --- 
+Delta: 20
+final error ratio (Delta / num of transactions): 0.001
+aveage table size: 6017
+max table size: 12000
+total CPU time: 8.440 (sec)    
+(per 1 trans.: 0.503 msec)	
+intersection time: 6.180 (sec)    
+intersection ratio: 0.384
+num of entries before Delta-compression: 12000
+CPU time: 2.230 (sec) 
+num of outputs: 4236

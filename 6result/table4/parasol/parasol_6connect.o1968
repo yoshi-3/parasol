@@ -1,0 +1,22 @@
+inputFile: ../../benchmark/6connect.txt
+outputFile: default (ans/table/csv)
+options: <pc. rc. comp. rep. chk. >
++ min support: 1.0000
++ size constant: 100000
++ error parameter: 0.1000
+statics of dataset
++ num of transactions: 67557
++ num of item kinds: 129
++ max transaction length: 43
++ ave transaction length: 43.00
+--- result --- 
+Delta: 51420
+final error ratio (Delta / num of transactions): 0.761
+aveage table size: 99615
+max table size: 100000
+total CPU time: 2672.350 (sec)    
+(per 1 trans.: 39.557 msec)	
+intersection time: 2652.860 (sec)    
+num of entries before Delta-compression: 100000
+num of entries after quasi Delta-compression: 36529
+num of outputs: 3833

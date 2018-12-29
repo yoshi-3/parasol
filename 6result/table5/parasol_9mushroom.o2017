@@ -1,0 +1,45 @@
+inputFile: ../../benchmark/9mushroom.txt
+outputFile: default (ans/table/csv)
+options: <rc. comp. rep. chk. >
++ min support: 0.0000
++ size constant: 12000
+statics of dataset
++ num of transactions: 8124
++ num of item kinds: 119
++ max transaction length: 23
++ ave transaction length: 23.00
+--- result --- 
+Delta: 492
+final error ratio (Delta / num of transactions): 0.061
+aveage table size: 11746
+max table size: 12000
+total CPU time: 24.960 (sec)    
+(per 1 trans.: 3.072 msec)	
+intersection time: 24.180 (sec)    
+intersection ratio: 0.364
+num of entries before Delta-compression: 12000
+num of entries after quasi Delta-compression: 4417
+CPU time: 0.750 (sec) 
+num of outputs: 2251
+inputFile: ../../benchmark/9mushroom.txt
+outputFile: default (ans/table/csv)
+options: <rc. comp_base. rep. chk. >
++ min support: 0.0000
++ size constant: 12000
+statics of dataset
++ num of transactions: 8124
++ num of item kinds: 119
++ max transaction length: 23
++ ave transaction length: 23.00
+--- result --- 
+Delta: 492
+final error ratio (Delta / num of transactions): 0.061
+aveage table size: 11746
+max table size: 12000
+total CPU time: 27.620 (sec)    
+(per 1 trans.: 3.400 msec)	
+intersection time: 24.270 (sec)    
+intersection ratio: 0.364
+num of entries before Delta-compression: 12000
+CPU time: 3.330 (sec) 
+num of outputs: 2756

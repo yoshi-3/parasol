@@ -1,0 +1,37 @@
+Intel MPI 2017u2
+
+{M}assive {O}nline {A}nalysis
+Version: 12.08 August 2012
+Copyright: (C) 2007-2012 University of Waikato, Hamilton, New Zealand
+Web: http://moa.cs.waikato.ac.nz/
+
+- 0.00s [running] 2.02% Training learner...                                    \ 0.95s [running] 2.02% Training learner...                                    | 1.69s [running] 2.02% Training learner...                                    / 2.02s [running] 2.02% Training learner...                                    - 2.68s [running] 2.02% Training learner...                                    \ 3.12s [running] 2.02% Training learner...                                    | 3.34s [running] 2.02% Training learner...                                    / 3.46s [running] 2.02% Training learner...                                    - 3.52s [running] 2.02% Training learner...                                    \ 3.54s [running] 2.02% Training learner...                                    | 3.56s [running] 2.02% Training learner...                                    / 3.57s [running] 2.02% Training learner...                                    - 3.57s [running] 2.02%                                                                                                                                       
+Task failed. Reason: 
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at java.util.HashMap.newNode(HashMap.java:1742)
+	at java.util.HashMap.putVal(HashMap.java:630)
+	at java.util.HashMap.put(HashMap.java:611)
+	at java.util.HashSet.add(HashSet.java:219)
+	at java.util.AbstractCollection.addAll(AbstractCollection.java:344)
+	at java.util.HashSet.<init>(HashSet.java:119)
+	at Charm_BitSet.AlgoCharm_Bitset.getCandidate(AlgoCharm_Bitset.java:214)
+	at Charm_BitSet.AlgoCharm_Bitset.extend(AlgoCharm_Bitset.java:155)
+	at Charm_BitSet.AlgoCharm_Bitset.extend(AlgoCharm_Bitset.java:182)
+	at Charm_BitSet.AlgoCharm_Bitset.extend(AlgoCharm_Bitset.java:182)
+	at Charm_BitSet.AlgoCharm_Bitset.extend(AlgoCharm_Bitset.java:182)
+	at Charm_BitSet.AlgoCharm_Bitset.extend(AlgoCharm_Bitset.java:182)
+	at Charm_BitSet.AlgoCharm_Bitset.extend(AlgoCharm_Bitset.java:182)
+	at Charm_BitSet.AlgoCharm_Bitset.extend(AlgoCharm_Bitset.java:182)
+	at Charm_BitSet.AlgoCharm_Bitset.runAlgorithm(AlgoCharm_Bitset.java:109)
+	at moa.core.Segment.getFCI(Segment.java:80)
+	at moa.core.SlidingWindowManager.getFCI(SlidingWindowManager.java:50)
+	at moa.learners.IncMine.update(IncMine.java:161)
+	at java.util.Observable.notifyObservers(Observable.java:159)
+	at moa.core.SlidingWindowManager.notifyIncMine(SlidingWindowManager.java:59)
+	at moa.core.FixedLengthWindowManager.addInstance(FixedLengthWindowManager.java:49)
+	at moa.learners.IncMine.trainOnInstanceImpl(IncMine.java:113)
+	at moa.learners.AbstractLearner.trainOnInstance(AbstractLearner.java:119)
+	at moa.tasks.LearnModel.doMainTask(LearnModel.java:88)
+	at moa.tasks.MainTask.doTaskImpl(MainTask.java:50)
+	at moa.tasks.AbstractTask.doTask(AbstractTask.java:57)
+	at moa.tasks.TaskThread.run(TaskThread.java:76)

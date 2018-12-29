@@ -1,0 +1,22 @@
+inputFile: ../../benchmark/8pumsb.txt
+outputFile: default (ans/table/csv)
+options: <pc. rc. comp. rep. chk. >
++ min support: 1.0000
++ size constant: 100000
++ error parameter: 0.1000
+statics of dataset
++ num of transactions: 49046
++ num of item kinds: 2112
++ max transaction length: 74
++ ave transaction length: 73.62
+--- result --- 
+Delta: 38189
+final error ratio (Delta / num of transactions): 0.779
+aveage table size: 99910
+max table size: 100000
+total CPU time: 1783.170 (sec)    
+(per 1 trans.: 36.357 msec)	
+intersection time: 1763.400 (sec)    
+num of entries before Delta-compression: 100000
+num of entries after quasi Delta-compression: 35072
+num of outputs: 7437

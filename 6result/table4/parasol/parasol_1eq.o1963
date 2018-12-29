@@ -1,0 +1,22 @@
+inputFile: ../../benchmark/1eq.txt
+outputFile: default (ans/table/csv)
+options: <pc. rc. comp. rep. chk. >
++ min support: 1.0000
++ size constant: 100000
++ error parameter: 0.1000
+statics of dataset
++ num of transactions: 16764
++ num of item kinds: 1228
++ max transaction length: 73
++ ave transaction length: 2.48
+--- result --- 
+Delta: 1676
+final error ratio (Delta / num of transactions): 0.100
+aveage table size: 182
+max table size: 16668
+total CPU time: 1.760 (sec)    
+(per 1 trans.: 0.105 msec)	
+intersection time: 1.730 (sec)    
+num of entries before Delta-compression: 23
+num of entries after quasi Delta-compression: 23
+num of outputs: 20

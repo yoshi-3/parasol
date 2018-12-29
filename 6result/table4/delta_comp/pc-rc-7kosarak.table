@@ -1,0 +1,13 @@
+---OutputTable---
+time=990001
+table_size=10
+[1] - <1056 > true count=1, estimated count=99001, Key=1056
+[2] - <6 7 > true count=8, estimated count=99003, Key=3835
+[3] - <1 6 11 > true count=31, estimated count=99003, Key=16802
+[4] - <1 3 > true count=28, estimated count=99004, Key=1642
+[5] - <6 11 > true count=324013, estimated count=364065, Key=6023
+[6] - <3 6 > true count=265180, estimated count=265181, Key=3285
+[7] - <6 > true count=601374, estimated count=601374, Key=6
+[8] - <3 6 11 > true count=143679, estimated count=161287, Key=16804
+[9] - <1 6 > true count=132113, estimated count=197522, Key=3283
+[10] - <3 > true count=450031, estimated count=450031, Key=3

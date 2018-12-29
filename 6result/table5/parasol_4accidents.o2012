@@ -1,0 +1,45 @@
+inputFile: ../../benchmark/4accidents.txt
+outputFile: default (ans/table/csv)
+options: <rc. comp. rep. chk. >
++ min support: 0.0000
++ size constant: 12000
+statics of dataset
++ num of transactions: 340183
++ num of item kinds: 468
++ max transaction length: 51
++ ave transaction length: 33.81
+--- result --- 
+Delta: 179683
+final error ratio (Delta / num of transactions): 0.528
+aveage table size: 11999
+max table size: 12000
+total CPU time: 884.670 (sec)    
+(per 1 trans.: 2.601 msec)	
+intersection time: 881.490 (sec)    
+intersection ratio: 0.199
+num of entries before Delta-compression: 12000
+num of entries after quasi Delta-compression: 2010
+CPU time: 0.070 (sec) 
+num of outputs: 626
+inputFile: ../../benchmark/4accidents.txt
+outputFile: default (ans/table/csv)
+options: <rc. comp_base. rep. chk. >
++ min support: 0.0000
++ size constant: 12000
+statics of dataset
++ num of transactions: 340183
++ num of item kinds: 468
++ max transaction length: 51
++ ave transaction length: 33.81
+--- result --- 
+Delta: 179683
+final error ratio (Delta / num of transactions): 0.528
+aveage table size: 11999
+max table size: 12000
+total CPU time: 865.110 (sec)    
+(per 1 trans.: 2.543 msec)	
+intersection time: 860.490 (sec)    
+intersection ratio: 0.199
+num of entries before Delta-compression: 12000
+CPU time: 1.490 (sec) 
+num of outputs: 808

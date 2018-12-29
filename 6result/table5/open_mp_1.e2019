@@ -1,0 +1,97 @@
+Intel MPI 2017u2
+delta=20
+k=12000
+OMP_NUM_THREADS=32
+OMP_SCHEDULE=DYNAMIC
+total time = 16.0817[sec]
+time to prepare = 0.226039[sec]
+time to remove = 0.0251932[sec]
+time to intersect =  15.3251[sec]
+time to update = 0.447703[sec]
+time per line = 0.959071[msec]
+nonempty ratio per line 5.08275[%]
+Max RSS = 15.2031[MB]
+delta=2951
+k=12000
+OMP_NUM_THREADS=32
+OMP_SCHEDULE=DYNAMIC
+total time = 43.9664[sec]
+time to prepare = 0.28829[sec]
+time to remove = 1.84569[sec]
+time to intersect =  38.236[sec]
+time to update = 0.960134[sec]
+time per line = 2.25863[msec]
+nonempty ratio per line 13.3213[%]
+Max RSS = 15.4609[MB]
+delta=143
+k=12000
+OMP_NUM_THREADS=32
+OMP_SCHEDULE=DYNAMIC
+total time = 149.691[sec]
+time to prepare = 1.48121[sec]
+time to remove = 0.259949[sec]
+time to intersect =  143.527[sec]
+time to update = 4.07726[sec]
+time per line = 1.69791[msec]
+nonempty ratio per line 22.5693[%]
+Max RSS = 12.8008[MB]
+delta=179240
+k=12000
+OMP_NUM_THREADS=32
+OMP_SCHEDULE=DYNAMIC
+total time = 1281.58[sec]
+time to prepare = 4.9134[sec]
+time to remove = 127.853[sec]
+time to intersect =  990.657[sec]
+time to update = 25.1559[sec]
+time per line = 3.76731[msec]
+nonempty ratio per line 51.9736[%]
+Max RSS = 19.5391[MB]
+delta=2432
+k=12000
+OMP_NUM_THREADS=32
+OMP_SCHEDULE=DYNAMIC
+total time = 11.3391[sec]
+time to prepare = 0.0471395[sec]
+time to remove = 1.03652[sec]
+time to intersect =  8.9128[sec]
+time to update = 0.446188[sec]
+time per line = 3.54789[msec]
+nonempty ratio per line 55.0804[%]
+Max RSS = 18.7539[MB]
+delta=62720
+k=12000
+OMP_NUM_THREADS=32
+OMP_SCHEDULE=DYNAMIC
+total time = 256.264[sec]
+time to prepare = 1.01411[sec]
+time to remove = 31.2058[sec]
+time to intersect =  193.854[sec]
+time to update = 5.02827[sec]
+time per line = 3.7933[msec]
+nonempty ratio per line 62.9392[%]
+Max RSS = 19.4766[MB]
+delta=42464
+k=12000
+OMP_NUM_THREADS=32
+OMP_SCHEDULE=DYNAMIC
+total time = 177.932[sec]
+time to prepare = 0.791083[sec]
+time to remove = 20.032[sec]
+time to intersect =  136.521[sec]
+time to update = 3.88715[sec]
+time per line = 3.62786[msec]
+nonempty ratio per line 57.9825[%]
+Max RSS = 19.8672[MB]
+delta=487
+k=12000
+OMP_NUM_THREADS=32
+OMP_SCHEDULE=DYNAMIC
+total time = 20.2371[sec]
+time to prepare = 0.111391[sec]
+time to remove = 0.401351[sec]
+time to intersect =  18.6039[sec]
+time to update = 0.468529[sec]
+time per line = 2.49102[msec]
+nonempty ratio per line 12.5384[%]
+Max RSS = 18.4727[MB]

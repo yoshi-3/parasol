@@ -1,0 +1,30 @@
+InputFile: ../../1benchmark/real/1eq.txt
+OutputFile: result/pc-rc-1eq
+stream_length: 16764
+mininal spport threshold: 0.000
+error parameter: 0.100
+size constand: 100000
+t=16764, s*t=0.00, e*t=1676.40, delta=1676, table_size (MAX) = 20 (16668)
+<itemset, frequency count, true count (frequency count - error count) >
+<20.>,1677,2
+<13.31.>,1677,1
+<869.>,1677,1
+<120.126.>,1677,1
+<18.>,1698,209
+<4.>,1720,231
+<252.>,1731,242
+<57.63.>,1743,254
+<5.57.>,1720,231
+<178.>,1677,1
+<378.>,1755,266
+<1134.>,1766,276
+<139.>,1813,324
+<7.>,1826,337
+<57.120.>,1850,202
+<48.57.>,1870,206
+<54.57.>,1879,214
+<5.>,1951,462
+<63.>,1962,473
+<57.>,2212,723
+Num of outputs: 20
+CPU time: 1.577 sec

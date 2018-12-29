@@ -1,0 +1,9 @@
+pc-rc-comp.rep.chk.,../../1benchmark/real/1eq.txt,182,1676,1.577306,0.000094,23,23,20,11625,8615 <- No closed item sets exit
+pc-rc-comp.rep.chk.,../../1benchmark/real/2wlog.txt,22174,1946,12.670829,0.000651,42204,412,182,54497,31872
+pc-rc-comp.rep.chk.,../../1benchmark/real/3retail.txt,26,8816,3.289131,0.000037,50,40,30,9,9
+pc-rc-comp.rep.chk.,../../1benchmark/real/4accidents.txt,99986,127097,9064.677577,0.026646,100000,13445,4194,47703,47703
+pc-rc-comp.rep.chk.,../../1benchmark/real/5chess.txt,93499,1952,353.331084,0.110554,100000,9211,2780,213314,84971
+pc-rc-comp.rep.chk.,../../1benchmark/real/6connect.txt,99615,51420,2798.582768,0.041426,100000,36529,3833,1264447,22073
+pc-rc-comp.rep.chk.,../../1benchmark/real/7kosarak.txt,21,99000,33.049119,0.000033,15,12,10,9,9
+pc-rc-comp.rep.chk.,../../1benchmark/real/8pumsb.txt,99910,38189,2285.232778,0.046594,100000,35072,7437,284466,55098
+pc-rc-comp.rep.chk.,../../1benchmark/real/9mushroom.txt,4278,812,7.351337,0.000905,6290,1909,938,574431,4885

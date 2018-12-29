@@ -1,0 +1,45 @@
+inputFile: ../../benchmark/2wlog.txt
+outputFile: default (ans/table/csv)
+options: <rc. comp. rep. chk. >
++ min support: 0.0000
++ size constant: 12000
+statics of dataset
++ num of transactions: 19460
++ num of item kinds: 9958
++ max transaction length: 106
++ ave transaction length: 18.18
+--- result --- 
+Delta: 2953
+final error ratio (Delta / num of transactions): 0.152
+aveage table size: 11537
+max table size: 12000
+total CPU time: 9.850 (sec)    
+(per 1 trans.: 0.506 msec)	
+intersection time: 9.820 (sec)    
+intersection ratio: 0.048
+num of entries before Delta-compression: 12000
+num of entries after quasi Delta-compression: 345
+CPU time: 0.000 (sec) 
+num of outputs: 138
+inputFile: ../../benchmark/2wlog.txt
+outputFile: default (ans/table/csv)
+options: <rc. comp_base. rep. chk. >
++ min support: 0.0000
++ size constant: 12000
+statics of dataset
++ num of transactions: 19460
++ num of item kinds: 9958
++ max transaction length: 106
++ ave transaction length: 18.18
+--- result --- 
+Delta: 2953
+final error ratio (Delta / num of transactions): 0.152
+aveage table size: 11537
+max table size: 12000
+total CPU time: 10.630 (sec)    
+(per 1 trans.: 0.546 msec)	
+intersection time: 9.530 (sec)    
+intersection ratio: 0.048
+num of entries before Delta-compression: 12000
+CPU time: 1.050 (sec) 
+num of outputs: 180

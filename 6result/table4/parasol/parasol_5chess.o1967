@@ -1,0 +1,22 @@
+inputFile: ../../benchmark/5chess.txt
+outputFile: default (ans/table/csv)
+options: <pc. rc. comp. rep. chk. >
++ min support: 1.0000
++ size constant: 100000
++ error parameter: 0.1000
+statics of dataset
++ num of transactions: 3196
++ num of item kinds: 75
++ max transaction length: 37
++ ave transaction length: 37.00
+--- result --- 
+Delta: 1952
+final error ratio (Delta / num of transactions): 0.611
+aveage table size: 93499
+max table size: 100000
+total CPU time: 564.740 (sec)    
+(per 1 trans.: 176.702 msec)	
+intersection time: 562.400 (sec)    
+num of entries before Delta-compression: 100000
+num of entries after quasi Delta-compression: 9211
+num of outputs: 2780

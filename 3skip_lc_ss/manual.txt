@@ -1,0 +1,94 @@
+
+manual.txt
+
+##############################
+1. Introduction
+##############################
+
+The Skip LC SS is a previously proposed resource-oriented algorithm to find the frequent itemsets#.
+
+Please see: http://dl.acm.org/citation.cfm?id=2612171
+We have implemented this algorithm by ourself.
+
+The prior implementation is then available only for reproducibility of the experiment. 
+
+##############################
+1. How to compile 
+##############################
+
+Please use the make command as follows:
+
+% make
+
+Note that we used the Mac machine (OS X, 2.66GHz Intel Core i7, 8GB 1067MHz DDE3 memory), 
+and if you will use other machines, it would be necessary to change the header declarations. For instance, 
+in the case of linux machines, please change the headers on malloc function #include<malloc/malloc.h> 
+to #include <malloc.h> in both entryTable.h and streamReduction.h
+
+Note also that the current directory is assumed to be src in the following.
+
+
+##############################
+2. How to execute 
+##############################
+
+We can execute the implementation with the following command line:
+
+% ./main -i ``INPUT_FILEÅfÅf -s ``MINIMAL_SUPPORT_THREAHOLDÅfÅf -k ``ENTRY_SIZEÅfÅf -o ``OUTPUT_FILEÅfÅf
+
+where 
+
+(1) INPUT_FILE: the path for the input_file
+(2) MINIMAL_SUPPORT_THREAHOLD: the minimal support threshold (corresponding to \sigma)
+(3) ENTRY_SIZE: the maximal number of entries to be used
+(4) OUTPUT_FILE: the path to the output_file
+
+For example, if we use 1eq.txt in the benchmark as the input and set the minimal 
+support threshold (\sigma) and entry size as 0.001 and 12000, respectively, then we give 
+the following command line:  
+
+% ./main -i ../../benchmark/real/1eq.txt -s 0.001 -k 12000 -o result/eq
+
+
+##############################
+3. How to read the result files
+##############################
+
+After the execution, we will obtain the standard output, three kinds of text files  
+folder (named eq) in the result.
+
+To compare the result by RO-CloStream, it is enough to see the eq.txt file, which summarizes the 
+result by Skip_LC_SS as one record in the form of 
+
+<INPUT, STREAM_SIZE, ENTRY_SIZE, DELTA, ERROR_RATIO, TOTAL_TIME, TIME_PER_TRAN> where 
+
++ INPUT: input file
++ STREAM_SIZE: the number of streaming transactions
++ ENTRY_SIZE: number of available entries
++ DELTA: the final error count after processing the transactions
++ ERROR_RATIO: DELTA / STREAM_SIZE
++ TOTAL_TIME: the total execution time (sec)
++ TIME_PER_TRAN: the average execution time per one transaction (sec)
+
+
+##############################
+5. How to make the input file
+##############################
+
+The input file is given as a text file in the FIMI form, consisting of records, 
+each of which corresponds to one transaction.
+
+For example, suppose the transactional stream: 
+< {1, 2, 3}, {2, 4}, {3, 5}, {1, 2, 5}, {2, 3, 5}, {1, 3, 4}>
+
+Then, this stream is represented as the following FIMI text:
+
+1 2 3
+2 4
+3 5
+1 2 5
+2 3 4
+1 3 4
+
+
+

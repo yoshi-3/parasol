@@ -1,0 +1,33 @@
+---OutputTable---
+time=88161
+table_size=30
+[1] - <48 13334 > true count=2, estimated count=8817, Key=7293746
+[2] - <32 39 > true count=109, estimated count=8831, Key=21365
+[3] - <39 41 413 > true count=2, estimated count=8817, Key=530043
+[4] - <41 48 16430 > true count=70, estimated count=8866, Key=5218767
+[5] - <32 16430 16431 > true count=81, estimated count=8846, Key=6680941
+[6] - <19 41 48 16430 > true count=2, estimated count=8817, Key=2826428
+[7] - <39 41 9150 > true count=2, estimated count=8817, Key=3767816
+[8] - <39 16430 16431 > true count=186, estimated count=8966, Key=6680948
+[9] - <39 48 16430 16431 > true count=106, estimated count=8869, Key=465748
+[10] - <39 41 16430 16431 > true count=67, estimated count=8851, Key=461919
+[11] - <39 48 16217 > true count=461, estimated count=9022, Key=4956988
+[12] - <39 48 2528 > true count=1, estimated count=8817, Key=3133207
+[13] - <12959 > true count=3, estimated count=8817, Key=12959
+[14] - <48 16430 > true count=219, estimated count=8964, Key=1487258
+[15] - <479 > true count=2, estimated count=8817, Key=479
+[16] - <16430 16431 > true count=347, estimated count=9095, Key=1504187
+[17] - <39 16217 > true count=727, estimated count=9541, Key=1370738
+[18] - <38 39 > true count=10345, estimated count=15596, Key=21371
+[19] - <39 > true count=50675, estimated count=50675, Key=39
+[20] - <32 > true count=15153, estimated count=15171, Key=32
+[21] - <16430 > true count=425, estimated count=9170, Key=16430
+[22] - <39 48 > true count=29142, estimated count=29142, Key=26295
+[23] - <39 41 > true count=11413, estimated count=14945, Key=22466
+[24] - <32 48 > true count=101, estimated count=8823, Key=26288
+[25] - <32 39 205 242 1393 > true count=1, estimated count=8817, Key=4584973
+[26] - <548 > true count=3, estimated count=8817, Key=548
+[27] - <39 41 48 438 > true count=2, estimated count=8817, Key=954392
+[28] - <39 41 48 > true count=2224, estimated count=9995, Key=81458
+[29] - <48 > true count=42135, estimated count=42135, Key=48
+[30] - <39 16010 > true count=829, estimated count=9310, Key=1257509
